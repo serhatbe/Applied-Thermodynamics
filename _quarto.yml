@@ -25,7 +25,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo #flatly
+      dark: solar
   pdf:
     documentclass: book #scrreprt
     toc-title: Contents
