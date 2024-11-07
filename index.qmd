@@ -1,0 +1,5 @@
+# Preface {.unnumbered}
+
+This workbook is a collection of lecture notes on Applied Thermodynamics. It aims to provide concise yet essential insights into the topics covered in class. Each chapter includes a problem set designed to help you understand the material better.
+
+@sec-international-system-of-units: Mastering and practicing SI units may seem like a small step, but it’s a powerful one! Building a strong foundation in SI units will not only support you in this course but will also give you a solid footing in future studies and practical applications. This skill is essential in so many courses, and your efforts now are setting you up for success.

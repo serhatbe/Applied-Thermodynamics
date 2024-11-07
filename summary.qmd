@@ -1,0 +1,7 @@
+# Summary {.unnumbered}
+
+You have solved a great many problems in your studies this term, reading various texts like [@joelBasicEngineeringThermodynamics1996], [@russellAppliedMechanicsMarine2021], [@fermiThermodynamics1956] and [@polyaHowSolveIt2014]. These sources have helped you understand complex concepts.
+
+As you near the final exam, remember that your knowledge and skills will help you succeed in your future courses. Stay confident, trust your preparation, and be composed. You have put in a lot of effort; now’s the time to show what you know.
+
+We wish you the best on the exam.
