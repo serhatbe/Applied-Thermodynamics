@@ -12,9 +12,9 @@ book:
   downloads: [pdf]
   page-footer:
     left: |
-      © 2024
+      © 2024 <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
     right: |
-      Built with
+      Built with <a href="https://quarto.org"> Quarto</a>
   chapters:
     - index.qmd
     - si-units.qmd
