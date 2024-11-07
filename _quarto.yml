@@ -5,11 +5,6 @@ project:
 book:
   title: "Applied Thermodynamics Workbook"
   subtitle: "Supplementary Exercises for In-Class Learning"
-  site-url: https://serhatbe.github.io/Applied-Thermodynamics/
-  navbar:
-    right:
-      - icon: rss
-        href: index.xml
   author: "Serhat Beyenir"
   date: today
   date-format: "MMMM D, YYYY"
@@ -23,9 +18,14 @@ book:
   chapters:
     - index.qmd
     - si-units.qmd
+    - heat.qmd
+    - thermal-expansion.qmd
+    - heat-transfer.qmd
+    - gas-laws.qmd
+    - expansion-and-compression-of-gases.qmd
+    - internal-combustion-engines.qmd
     - summary.qmd
     - references.qmd
-
 
 bibliography: references.bib
 
@@ -38,6 +38,7 @@ format:
     documentclass: book #scrreprt
     toc-title: Contents
     lot: true
+    lof: true
     include-in-header: 
       text: |
         \usepackage{makeidx}

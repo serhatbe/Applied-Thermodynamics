@@ -1,0 +1,21 @@
+project:
+  type: book
+book:
+  title: "My Book"
+  author: "Author Name"
+  chapters:
+    - index.qmd
+    - chapter1.qmd
+    - chapter2.qmd
+  output:
+    pdf:
+      documentclass: book
+      include-in-header: 
+        text: |
+          \usepackage{tocloft}
+          \newlistof{equations}{equ}{List of Equations}
+          \newcommand{\listequationsname}{List of Equations}
+          \newcommand{\addtoequations}{\addcontentsline{equ}{equation}}
+          \let\oldequation\equation
+          \let\oldendequation\endequation
+          \renewenvironment{equation}{\begin{equation}\addtoequations}{\end{equation}}

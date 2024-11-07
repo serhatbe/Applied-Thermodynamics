@@ -1,0 +1,21 @@
+# Internal Combustion Engines {#sec-internal-combustion-engines}
+
+## Objectives
+
+-   Explain.
+
+## Concepts
+
+Internal combustion (IC) engines\index{IC Engines} are given this name due to the combustion of the fuel taking place inside the engine. When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.
+
+With IC engines the method of igniting the fuel shows a fundamental difference between the diesel engine and the petrol engine. In diesel engines the air in the cylinder is compressed to a high pressure and therefore, following the gas laws, the air reaches a high temperature. When the fuel is injected into this high temperature it ignites after a short delay (see the section on combustion and heat release).
+
+When the ignition of the fuel is only caused by the heat from the compression of the air, the engine is classed as a compression–ignition (CI) engine. In petrol engines the fuel is usually taken in with the charge of air. The charge is compressed and then ignited by an electrically induced spark. These engines are designated as spark ignition (SI) engines.
+
+## Classwork
+
+## Problem Set
+
+## Further Reading
+
+Read Chapter 7 in @russell2022, for additional information.

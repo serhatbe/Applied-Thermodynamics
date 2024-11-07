@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Applied Thermodynamics Workbook",
     "section": "",
-    "text": "Preface\nThis workbook is a collection of lecture notes on Applied Thermodynamics. It aims to provide concise yet essential insights into the topics covered in class. Each chapter includes a problem set designed to help you understand the material better.\n1  International System of Units: Mastering and practicing SI units may seem like a small step, but it’s a powerful one! Building a strong foundation in SI units will not only support you in this course but will also give you a solid footing in future studies and practical applications. This skill is essential in so many courses, and your efforts now are setting you up for success.",
+    "text": "Preface\nThis workbook is a collection of lecture notes on Applied Thermodynamics. It aims to provide concise yet essential insights into the topics covered in class. Each chapter includes a problem set designed to help you understand the material better.\n1  International System of Units: Mastering and practicing SI units may seem like a small step, but it’s a powerful one! Building a strong foundation in SI units will not only support you in this course but will also give you a solid footing in future studies and practical applications. This skill is essential in so many courses, and your efforts now are setting you up for success.\n2  Heat: We commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”\n3  Thermal Expansion: Linear expansion refers to a change in one direction (or dimension) only. Generally, it occurs in a long, relatively thin object where the predominant dimension under consideration is length.\n4  Heat Transfer: Explain the methods of heat transfer: conduction, convection, and radiation.\n5  Gas Laws: A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.\n6  Expansion and Compression of Gases: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.\n7  Internal Combustion Engines: When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.",
     "crumbs": [
       "Preface"
     ]
@@ -64,9 +64,379 @@
     "href": "si-units.html#further-reading",
     "title": "1  International System of Units",
     "section": "1.5 Further Reading",
-    "text": "1.5 Further Reading\nRead introduction in (Russell, Jackson, and Embleton 2021) and complete the end of chapter problems.\n\n\n\n\nRussell, Paul A., Leslie Jackson, and William Embleton. 2021. Applied Mechanics for Marine Engineers. 7th edition. Reeds Marine Engineering and Technology Series, vol. 2. London: Reeds.",
+    "text": "1.5 Further Reading\nRead Chapter 1in Russell, Embleton, and Jackson (2022) and complete the end of chapter problems.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>International System of Units</span>"
+    ]
+  },
+  {
+    "objectID": "heat.html",
+    "href": "heat.html",
+    "title": "2  Heat",
+    "section": "",
+    "text": "2.1 Objectives",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Heat</span>"
+    ]
+  },
+  {
+    "objectID": "heat.html#objectives",
+    "href": "heat.html#objectives",
+    "title": "2  Heat",
+    "section": "",
+    "text": "Define and explain internal energy, heat, specific heat, heat units, temperature and explain the relationship between the different scales of temperature measurement.\nDefine sensible heat and use the sensible heat equation to calculate the heat required to change the temperature of a substance, the mass of the substance, and the temperature change, if no change of state occurs.\nExplain the changes of state and define latent heat, latent heat of fusion, and latent heat of evaporation.\nGiven start and end conditions, calculate the heat required to change the states of water and other substances.\nDetermine the final temperatures and the original masses for mixtures of ice, water, steam, and other substances.\nExplain the principle of a simple calorimeter and use the calorimeter equation to determine specific heat and final temperature.\nExplain water equivalent and perform calorimeter and heat calculations involving water equivalents.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Heat</span>"
+    ]
+  },
+  {
+    "objectID": "heat.html#concepts",
+    "href": "heat.html#concepts",
+    "title": "2  Heat",
+    "section": "2.2 Concepts",
+    "text": "2.2 Concepts\n\n2.2.1 Temperature\nWe commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”\nFor example, consider a quantity of water with a large amount of internal energy (that is, the water is “hot”). As the molecules move about at high velocity, they collide with each other very frequently and quite violently. If a mercury-in-glass thermometer is placed in the water, the water molecules collide with the glass molecules, which, in turn, begin to move more rapidly as energy is transferred to them. The glass molecules collide with each other and then with the mercury molecules inside the thermometer. This energy transfer to the mercury molecules causes them to move more randomly and the mercury expands up into the thermometer tube. Eventually, the energy levels of the water, glass, and mercury molecules reach the same level and energy transfer between them ceases. At that point the thermometer is indicating the temperature of the water, which is really an indication of the internal energy of the water.\n\n2.2.1.1 Temperature Scales\nThere are four measurement scales used to define temperature. The most common, for everyday use, are the Fahrenheit and Celsius scales, while the Rankine and Kelvin scales are used largely for specific scientific, thermodynamic calculations. Each scale has its own importance and the relationships between the scales must be understood to successfully complete many calculations.\nFigure 2.1 shows the relationship between these scales and the key temperatures of consideration for each. Refer to Figure 2.1 during the descriptions of each scale.\nNote that there are three temperatures that are used as the key reference points for these scales. These are:\n\nAbsolute zero\nFreezing point (temperature) of water at atmospheric pressure\nBoiling point (temperature) of water at atmospheric pressure\n\n\n\n\n\n\n\nFigure 2.1: Temperature Scales",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Heat</span>"
+    ]
+  },
+  {
+    "objectID": "heat.html#classwork",
+    "href": "heat.html#classwork",
+    "title": "2  Heat",
+    "section": "2.3 Classwork",
+    "text": "2.3 Classwork",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Heat</span>"
+    ]
+  },
+  {
+    "objectID": "heat.html#problem-set",
+    "href": "heat.html#problem-set",
+    "title": "2  Heat",
+    "section": "2.4 Problem Set",
+    "text": "2.4 Problem Set",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Heat</span>"
+    ]
+  },
+  {
+    "objectID": "heat.html#further-reading",
+    "href": "heat.html#further-reading",
+    "title": "2  Heat",
+    "section": "2.5 Further Reading",
+    "text": "2.5 Further Reading\nRead Chapter 2 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Heat</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html",
+    "href": "thermal-expansion.html",
+    "title": "3  Thermal Expansion",
+    "section": "",
+    "text": "3.1 Objectives",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html#objectives",
+    "href": "thermal-expansion.html#objectives",
+    "title": "3  Thermal Expansion",
+    "section": "",
+    "text": "Explain the thermal conditions that cause expansion of solids and liquids and describe the relationship between linear, superficial (area) and volumetric expansion.\nGiven known conditions, calculate linear expansion or contraction, temperatures, and/or expansion coefficients for solids.\nGiven known conditions, calculate superficial expansion or contraction, temperatures, and/or expansion coefficients for solids.\nGiven known conditions, calculate volumetric expansion or contraction, temperatures, and/or expansion coefficients for solids or liquids.\nCalculate the stress produced in a pipe or its supports when thermal expansion is restricted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html#concepts",
+    "href": "thermal-expansion.html#concepts",
+    "title": "3  Thermal Expansion",
+    "section": "3.2 Concepts",
+    "text": "3.2 Concepts\n\n3.2.1 Linear Expansion\nLinear expansion refers to a change in one direction (or dimension) only. Generally, it occurs in a long, relatively thin object where the predominant dimension under consideration is length.\n\\[\n\\Delta L=\\alpha L \\Delta T\n\\tag{3.1}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html#classwork",
+    "href": "thermal-expansion.html#classwork",
+    "title": "3  Thermal Expansion",
+    "section": "3.3 Classwork",
+    "text": "3.3 Classwork",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html#problem-set",
+    "href": "thermal-expansion.html#problem-set",
+    "title": "3  Thermal Expansion",
+    "section": "3.4 Problem Set",
+    "text": "3.4 Problem Set",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html#further-reading",
+    "href": "thermal-expansion.html#further-reading",
+    "title": "3  Thermal Expansion",
+    "section": "3.5 Further Reading",
+    "text": "3.5 Further Reading\nRead Chapter 3 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html",
+    "href": "heat-transfer.html",
+    "title": "4  Heat Transfer",
+    "section": "",
+    "text": "4.1 Objectives",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html#objectives",
+    "href": "heat-transfer.html#objectives",
+    "title": "4  Heat Transfer",
+    "section": "",
+    "text": "Explain the methods of heat transfer: conduction, convection, and radiation.\nDefine thermal conductivity and calculate the quantity of heat conducted, the temperature difference, or the material thickness when heat is transferred through flat walls and plates.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html#concepts",
+    "href": "heat-transfer.html#concepts",
+    "title": "4  Heat Transfer",
+    "section": "4.2 Concepts",
+    "text": "4.2 Concepts",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html#conduction",
+    "href": "heat-transfer.html#conduction",
+    "title": "4  Heat Transfer",
+    "section": "4.3 Conduction",
+    "text": "4.3 Conduction\nThis method involves the flow of heat from molecule to molecule within a single solid object or from the molecules of one object to those of another object when the two are in direct contact. Molecules at a high temperature are in rapid vibration and this vibration is transferred, through molecular collision, to adjacent molecules within the same body. This causes the adjacent molecules to vibrate faster, thus increasing the temperature.\nThis vibration transfer, and subsequent heat transfer, will also occur between the molecules of two different objects (or substances). If one object is at a higher temperature its molecules will be vibrating faster than those of the second object. Upon contact, the vibration energy will be passed to the second object, resulting in a transfer of heat and a temperature increase in the second object.\nAn example of conduction is an iron bar having one end in contact with a flame. The other end will soon become hot due to the conduction of heat from molecule to molecule through the iron.\n\\[\nQ=\\frac{kAt\\Delta T}{s}\n\\tag{4.1}\\]\n\n4.3.1 Convection\nHeat transfer by convection involves the movement of a fluid (ie. a liquid or a gas). When a fluid is in contact with a hotter surface, the fluid near that surface will be heated, causing the fluid to expand and its density to decrease. Cooler, denser fluid will displace the heated fluid and will, in turn, become heated. This continuing process of heat transfer establishes a circulation of fluid (called a convection current), which then carries heat throughout the fluid.\nOne example involves water in a boiler, which is heated by means of convection currents. The part of the water in contact with the hot tube walls or shell will be heated and will be displaced by cooler water, which in turn is heated and displaced.\nLikewise, hot gases rising in a boiler stack, air rising from a room radiator, water heated in a heat exchanger and rising into a storage tank are all examples of convection. These are examples of natural convection, in which the fluid motion is created without the use of mechanical devices.\nIf fluid movement is created by a pump or a fan, heat is being transferred by forced convection. Examples are a pump circulating hot water through a building heating system, a fan forcing air through an automobile radiator, or a forced draft fan pushing hot gases through a boiler.\n\n\n4.3.2 Radiation\nHeat transfer by radiation involves the transmission of electromagnetic waves. All bodies emit these waves and the higher the body’s temperature the greater will be the emission. These waves are similar to light waves in they travel in straight lines and are able to pass through a vacuum. When they strike another body they are absorbed, reflected, or transmitted through, depending upon the material of the body. If the waves are absorbed by a body, the waves will increase the molecular activity of the body, thus creating an increase in temperature.\nThe condition of a body’s surface will determine the amount that is absorbed or reflected. A black, rough surface will readily absorb the radiant energy. A smooth, highly polished surface will reflect most of the radiant energy. Some substances, such as air, will absorb a small portion of the radiant energy, but will permit the majority of the energy to pass through.\nA typical example of radiation is heat reaching the earth from the sun. The energy waves first pass through the vacuum above the earth’s atmosphere and then through the atmosphere itself where a portion is absorbed. Upon striking the earth’s surface the remaining energy is absorbed and converted to heat.\nIn a steam boiler, radiation occurs in the furnace. Any heating surfaces that are directly exposed to the furnace will receive heat directly by radiation from the flame. These include the waterwalls and some generating tubes of a watertube boiler, radiant superheater tubes (located at the outlet of the furnace), and the furnace walls of a firetube boiler.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html#classwork",
+    "href": "heat-transfer.html#classwork",
+    "title": "4  Heat Transfer",
+    "section": "4.4 Classwork",
+    "text": "4.4 Classwork",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html#problem-set",
+    "href": "heat-transfer.html#problem-set",
+    "title": "4  Heat Transfer",
+    "section": "4.5 Problem Set",
+    "text": "4.5 Problem Set",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html#further-reading",
+    "href": "heat-transfer.html#further-reading",
+    "title": "4  Heat Transfer",
+    "section": "4.6 Further Reading",
+    "text": "4.6 Further Reading\nRead Chapter 4 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "gas-laws.html",
+    "href": "gas-laws.html",
+    "title": "5  Gas Laws",
+    "section": "",
+    "text": "5.1 Objectives",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
+    ]
+  },
+  {
+    "objectID": "gas-laws.html#objectives",
+    "href": "gas-laws.html#objectives",
+    "title": "5  Gas Laws",
+    "section": "",
+    "text": "Explain Boyle’s Law, Charles’ Law, and the General Gas Law and use these to calculate pressure, temperature and/or volume changes for perfect gases.\nExplain the Characteristic Gas Constant and use the Characteristic Gas Equation to determine the mass, the conditions, and the constant for a gas.\nExplain isothermal, adiabatic, and polytropic processes (expansion and compression) for a gas, state the formula for each process, and compare the processes on a pressure/volume diagram",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
+    ]
+  },
+  {
+    "objectID": "gas-laws.html#concepts",
+    "href": "gas-laws.html#concepts",
+    "title": "5  Gas Laws",
+    "section": "5.2 Concepts",
+    "text": "5.2 Concepts\nA perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.\nGases such as nitrogen, oxygen, and dry air can usually be treated as perfect gases. However, saturated steam is not considered a perfect gas, since it may condense under normal operating conditions. Although it is not technically a perfect gas, superheated steam, provided it never drops to the saturation temperature, does approximately act as a perfect gas.\nFor a perfect gas in a closed environment, there are specific relationships that exist between the temperature, pressure and volume of the gas. Furthermore, when any of these three conditions changes, the relationships between them can be used to predict and calculate the changes in the other conditions. For example, if the pressure and temperature change, it is possible to calculate what the change in pressure will be, and so on.\nThe relationships between pressure, temperature and volume have been proven by experimentation and have been described in three basic laws, called Laws of Perfect Gases. These laws are Boyle’s Law, Charles’ Laws, and the General Gas Law.\n\n5.2.1 Boyle’s Law\nA physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\\index{Boyle’s Law}\n\\[\nP\\propto\\frac{1}{V}\n\\tag{5.1}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
+    ]
+  },
+  {
+    "objectID": "gas-laws.html#classwork",
+    "href": "gas-laws.html#classwork",
+    "title": "5  Gas Laws",
+    "section": "5.3 Classwork",
+    "text": "5.3 Classwork",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
+    ]
+  },
+  {
+    "objectID": "gas-laws.html#problem-set",
+    "href": "gas-laws.html#problem-set",
+    "title": "5  Gas Laws",
+    "section": "5.4 Problem Set",
+    "text": "5.4 Problem Set",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
+    ]
+  },
+  {
+    "objectID": "gas-laws.html#further-reading",
+    "href": "gas-laws.html#further-reading",
+    "title": "5  Gas Laws",
+    "section": "5.5 Further Reading",
+    "text": "5.5 Further Reading\nRead Chapter 5 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html",
+    "href": "expansion-and-compression-of-gases.html",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "",
+    "text": "6.1 Objectives",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html#objectives",
+    "href": "expansion-and-compression-of-gases.html#objectives",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "",
+    "text": "Explain and calculate the work done in a cylinder during an isothermal expansion or compression.\nExplain and calculate the work done in a cylinder during an adiabatic expansion or compression.\nExplain and calculate the work done in a cylinder during a polytropic expansion or compression.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html#concepts",
+    "href": "expansion-and-compression-of-gases.html#concepts",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "6.2 Concepts",
+    "text": "6.2 Concepts\nTo expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature. This pressure exerts force upon a piston, causing the piston to move within the cylinder. As the piston moves, the volume of the gas increases and the pressure drops, until the gas is exhausted from the cylinder. During expansion, unless heat is added to the gas from an external source, the work performed by the gas results in a reduction in temperature.\nTo compress a gas, external work is applied to the gas to reduce the volume and increase the pressure of the gas. One familiar example is a reciprocating air compressor, in which air is trapped inside a closed cylinder and a moving piston, driven by an external motor or engine, compresses the air within the cylinder before it is released from the cylinder at higher pressure. This compression requires that work be performed on the air, causing the air temperature to increase as it is compressed. Unless heat is somehow removed, through cooling, the temperature of a gas will increase when it is compressed.\n\n6.2.1 Isothermal Compression and Expansion\nIf compression or expansion occurs with no change in the temperature of the gas, then the process is called an isothermal process and Boyle’s Law, as described previously, applies to the process. That is, the relationship between any two points in the process can be stated as:\n\n\n6.2.2 Adiabatic Compression and Expansion\nIf compression or expansion of a gas occurs with no external transfer of heat to or from the gas, then the process is said to be adiabatic. Since no heat transfer can occur, the cylinder must be perfectly insulated.\nDuring an adiabatic expansion, the temperature of the expanding gas decreases. During an adiabatic compression, the temperature of the gas rises.\nFor an adiabatic process, the relationship between pressure and volume is stated as:\nIn this relationship, \\(\\gamma\\) (Greek letter gamma) is called the “index of compression or expansion”. It is calculated as the ratio of the specific heat of the gas at constant pressure \\(c_p\\) to the specific heat of the gas at constant volume \\(c_v\\).\n\n\n6.2.3 Polytropic Compression and Expansion\nThe isothermal and adiabatic processes are both theoretical processes, which can only be approached, but never perfectly achieved. There can never be perfect cooling, nor perfect insulating of a cylinder. Consequently, there is always some heat loss, some heat gain, and/or some temperature change. This more practical process, in which there is a partial transfer of heat to/from the gas, is called polytropic and the relationship between pressure and volume is stated as:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html#classwork",
+    "href": "expansion-and-compression-of-gases.html#classwork",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "6.3 Classwork",
+    "text": "6.3 Classwork",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html#problem-set",
+    "href": "expansion-and-compression-of-gases.html#problem-set",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "6.4 Problem Set",
+    "text": "6.4 Problem Set",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html#further-reading",
+    "href": "expansion-and-compression-of-gases.html#further-reading",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "6.5 Further Reading",
+    "text": "6.5 Further Reading\nRead Chapter 6 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "internal-combustion-engines.html",
+    "href": "internal-combustion-engines.html",
+    "title": "7  Internal Combustion Engines",
+    "section": "",
+    "text": "7.1 Objectives",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Internal Combustion Engines</span>"
+    ]
+  },
+  {
+    "objectID": "internal-combustion-engines.html#objectives",
+    "href": "internal-combustion-engines.html#objectives",
+    "title": "7  Internal Combustion Engines",
+    "section": "",
+    "text": "Explain.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Internal Combustion Engines</span>"
+    ]
+  },
+  {
+    "objectID": "internal-combustion-engines.html#concepts",
+    "href": "internal-combustion-engines.html#concepts",
+    "title": "7  Internal Combustion Engines",
+    "section": "7.2 Concepts",
+    "text": "7.2 Concepts\nInternal combustion (IC) engines are given this name due to the combustion of the fuel taking place inside the engine. When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.\nWith IC engines the method of igniting the fuel shows a fundamental difference between the diesel engine and the petrol engine. In diesel engines the air in the cylinder is compressed to a high pressure and therefore, following the gas laws, the air reaches a high temperature. When the fuel is injected into this high temperature it ignites after a short delay (see the section on combustion and heat release).\nWhen the ignition of the fuel is only caused by the heat from the compression of the air, the engine is classed as a compression–ignition (CI) engine. In petrol engines the fuel is usually taken in with the charge of air. The charge is compressed and then ignited by an electrically induced spark. These engines are designated as spark ignition (SI) engines.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Internal Combustion Engines</span>"
+    ]
+  },
+  {
+    "objectID": "internal-combustion-engines.html#classwork",
+    "href": "internal-combustion-engines.html#classwork",
+    "title": "7  Internal Combustion Engines",
+    "section": "7.3 Classwork",
+    "text": "7.3 Classwork",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Internal Combustion Engines</span>"
+    ]
+  },
+  {
+    "objectID": "internal-combustion-engines.html#problem-set",
+    "href": "internal-combustion-engines.html#problem-set",
+    "title": "7  Internal Combustion Engines",
+    "section": "7.4 Problem Set",
+    "text": "7.4 Problem Set",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Internal Combustion Engines</span>"
+    ]
+  },
+  {
+    "objectID": "internal-combustion-engines.html#further-reading",
+    "href": "internal-combustion-engines.html#further-reading",
+    "title": "7  Internal Combustion Engines",
+    "section": "7.5 Further Reading",
+    "text": "7.5 Further Reading\nRead Chapter 7 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Internal Combustion Engines</span>"
     ]
   },
   {
@@ -74,7 +444,7 @@
     "href": "summary.html",
     "title": "Summary",
     "section": "",
-    "text": "You have solved a great many problems in your studies this term, reading various texts like (Joel 1996), (Russell, Jackson, and Embleton 2021), (Fermi 1956) and (Polya and Conway 2014). These sources have helped you understand complex concepts.\nAs you near the final exam, remember that your knowledge and skills will help you succeed in your future courses. Stay confident, trust your preparation, and be composed. You have put in a lot of effort; now’s the time to show what you know.\nWe wish you the best on the exam.\n\n\n\n\nFermi, Enrico. 1956. Thermodynamics. New ed.\n\n\nJoel, Rayner. 1996. Basic Engineering Thermodynamics. 5th ed. Pearson/Prenctice Hall.\n\n\nPolya, G., and John H. Conway. 2014. How to Solve It: A New Aspect of Mathematical Method. With a Foreword by John H. Con ed. edition. Princeton Oxford: Princeton University Press.\n\n\nRussell, Paul A., Leslie Jackson, and William Embleton. 2021. Applied Mechanics for Marine Engineers. 7th edition. Reeds Marine Engineering and Technology Series, vol. 2. London: Reeds.",
+    "text": "You have solved a great many problems in your studies this term, reading various texts like Joel (1996), Russell, Embleton, and Jackson (2022), Fermi (1956) and Polya and Conway (2014). These sources have helped you understand complex concepts.\nAs you near the final exam, remember that your knowledge and skills will help you succeed in your future courses. Stay confident, trust your preparation, and be composed. You have put in a lot of effort; now’s the time to show what you know.\nWe wish you the best on the exam.\n\n\n\n\nFermi, Enrico. 1956. Thermodynamics. New ed.\n\n\nJoel, Rayner. 1996. Basic Engineering Thermodynamics. 5th ed. Pearson/Prenctice Hall.\n\n\nPolya, G., and John H. Conway. 2014. How to Solve It: A New Aspect of Mathematical Method. With a Foreword by John H. Con ed. edition. Princeton Oxford: Princeton University Press.\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
     "crumbs": [
       "Summary"
     ]
@@ -84,7 +454,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Fermi, Enrico. 1956. Thermodynamics. New ed.\n\n\nJoel, Rayner. 1996. Basic Engineering Thermodynamics. 5th ed.\nPearson/Prenctice Hall.\n\n\nPolya, G., and John H. Conway. 2014. How to Solve It: A New Aspect\nof Mathematical Method. With a Foreword by John H. Con ed. edition.\nPrinceton Oxford: Princeton University Press.\n\n\nRussell, Paul A., Leslie Jackson, and William Embleton. 2021.\nApplied Mechanics for Marine Engineers. 7th edition. Reeds\nMarine Engineering and Technology Series, vol. 2. London: Reeds.",
+    "text": "Fermi, Enrico. 1956. Thermodynamics. New ed.\n\n\nJoel, Rayner. 1996. Basic Engineering Thermodynamics. 5th ed.\nPearson/Prenctice Hall.\n\n\nPolya, G., and John H. Conway. 2014. How to Solve It: A New Aspect\nof Mathematical Method. With a Foreword by John H. Con ed. edition.\nPrinceton Oxford: Princeton University Press.\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022.\nApplied Thermodynamics for Marine Engineers. 6th edition.\nReed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
     "crumbs": [
       "References"
     ]

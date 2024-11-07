@@ -1,0 +1,31 @@
+# Thermal Expansion {#sec-thermal-expansion}
+
+## Objectives
+
+-   Explain the thermal conditions that cause expansion of solids and liquids and describe the relationship between linear, superficial (area) and volumetric expansion.
+
+-   Given known conditions, calculate linear expansion or contraction, temperatures, and/or expansion coefficients for solids.
+
+-   Given known conditions, calculate superficial expansion or contraction, temperatures, and/or expansion coefficients for solids.
+
+-   Given known conditions, calculate volumetric expansion or contraction, temperatures, and/or expansion coefficients for solids or liquids.
+
+-   Calculate the stress produced in a pipe or its supports when thermal expansion is restricted.
+
+## Concepts
+
+### Linear Expansion
+
+Linear expansion\index{Linear expansion} refers to a change in one direction (or dimension) only. Generally, it occurs in a long, relatively thin object where the predominant dimension under consideration is length.
+
+$$
+\Delta L=\alpha L \Delta T
+$$ {#eq-linearexp}
+
+## Classwork
+
+## Problem Set
+
+## Further Reading
+
+Read Chapter 3 in @russell2022, for additional information.

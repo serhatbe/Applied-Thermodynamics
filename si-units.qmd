@@ -187,4 +187,4 @@ The meters and seconds cancel out, leaving kilometers per hour: $54 \, \text{km/
 
 ## Further Reading
 
-Read introduction in [@russellAppliedMechanicsMarine2021] and complete the end of chapter problems.
+Read Chapter 1in @russell2022 and complete the end of chapter problems.

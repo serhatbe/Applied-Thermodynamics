@@ -1,14 +1,19 @@
 # Chapter Template
 
 ```         
-# Moment of a Force {#sec-moment-of-a-force}
+# Heat {#sec-heat}
 
 ## Objectives
 
--   Recall.
--   Practice the application.
+-   Explain water equivalent and perform calorimeter and heat calculations involving water equivalents.
 
 ## Concepts
+
+### Temperature
+
+We commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”
+
+![Temperature Scales](images/Temperature-Scales.png){#fig-temp-scale}
 
 ## Classwork
 
@@ -16,7 +21,7 @@
 
 ## Further Reading
 
-Chapter 7 in @russell2021, Chapter 1 in @hannah1995 and Chapter 2 in @bolton2021 for additional information.
+Read Chapter X in @russell2022, for additional information.
 ```
 
 # Indexing Words

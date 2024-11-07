@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; International System of Units – Applied Thermodynamics Workbook</title>
+<title>7&nbsp; Internal Combustion Engines – Applied Thermodynamics Workbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./heat.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./summary.html" rel="next">
+<link href="./expansion-and-compression-of-gases.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -91,35 +91,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -132,7 +103,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./si-units.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">International System of Units</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./internal-combustion-engines.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Internal Combustion Engines</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -169,7 +140,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./si-units.html" class="sidebar-item-text sidebar-link active">
+  <a href="./si-units.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">International System of Units</span></span></a>
   </div>
 </li>
@@ -205,7 +176,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./internal-combustion-engines.html" class="sidebar-item-text sidebar-link">
+  <a href="./internal-combustion-engines.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Internal Combustion Engines</span></span></a>
   </div>
 </li>
@@ -231,17 +202,11 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives"><span class="header-section-number">1.1</span> Objectives</a></li>
-  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts"><span class="header-section-number">1.2</span> Concepts</a>
-  <ul class="collapse">
-  <li><a href="#unity-fraction" id="toc-unity-fraction" class="nav-link" data-scroll-target="#unity-fraction"><span class="header-section-number">1.2.1</span> Unity Fraction</a></li>
-  </ul></li>
-  <li><a href="#classwork" id="toc-classwork" class="nav-link" data-scroll-target="#classwork"><span class="header-section-number">1.3</span> Classwork</a></li>
-  <li><a href="#problem-set" id="toc-problem-set" class="nav-link" data-scroll-target="#problem-set"><span class="header-section-number">1.4</span> Problem Set</a>
-  <ul class="collapse">
-  <li><a href="#answer-key" id="toc-answer-key" class="nav-link" data-scroll-target="#answer-key"><span class="header-section-number">1.4.1</span> Answer Key</a></li>
-  </ul></li>
-  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">1.5</span> Further Reading</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives"><span class="header-section-number">7.1</span> Objectives</a></li>
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts"><span class="header-section-number">7.2</span> Concepts</a></li>
+  <li><a href="#classwork" id="toc-classwork" class="nav-link" data-scroll-target="#classwork"><span class="header-section-number">7.3</span> Classwork</a></li>
+  <li><a href="#problem-set" id="toc-problem-set" class="nav-link" data-scroll-target="#problem-set"><span class="header-section-number">7.4</span> Problem Set</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">7.5</span> Further Reading</a></li>
   </ul>
 </nav>
     </div>
@@ -250,7 +215,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-international-system-of-units" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">International System of Units</span></span></h1>
+<h1 class="title"><span id="sec-internal-combustion-engines" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Internal Combustion Engines</span></span></h1>
 </div>
 
 
@@ -267,328 +232,27 @@ window.Quarto = {
 </header>
 
 
-<section id="objectives" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="objectives"><span class="header-section-number">1.1</span> Objectives</h2>
+<section id="objectives" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="objectives"><span class="header-section-number">7.1</span> Objectives</h2>
 <ul>
-<li>Recall the base and derived units.</li>
-<li>Practice the application of unity fraction.</li>
+<li>Explain.</li>
 </ul>
 </section>
-<section id="concepts" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="concepts"><span class="header-section-number">1.2</span> Concepts</h2>
-<p>The International System of Units (SI) is the globally accepted standard for measurement. Established to provide a consistent framework for scientific and technical measurements, SI units facilitate clear communication and data comparison across various fields and countries. The system is based on seven fundamental units: the meter for length, the kilogram for mass, the second for time, the ampere for electric current, the kelvin for temperature, the mole for substance, and the candela for luminous intensity.</p>
-<div style="page-break-after: always;"></div>
-<table class="caption-top table">
-<caption>Base SI units.</caption>
-<thead>
-<tr class="header">
-<th>Physical Quantity</th>
-<th>SI Base Unit</th>
-<th>Symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Length</td>
-<td>Meter</td>
-<td>m</td>
-</tr>
-<tr class="even">
-<td>Mass</td>
-<td>Kilogram</td>
-<td>kg</td>
-</tr>
-<tr class="odd">
-<td>Time</td>
-<td>Second</td>
-<td>s</td>
-</tr>
-<tr class="even">
-<td>Electric Current</td>
-<td>Ampere</td>
-<td>A</td>
-</tr>
-<tr class="odd">
-<td>Temperature</td>
-<td>Kelvin</td>
-<td>K</td>
-</tr>
-<tr class="even">
-<td>Amount of Substance</td>
-<td>Mole</td>
-<td>mol</td>
-</tr>
-<tr class="odd">
-<td>Luminous Intensity</td>
-<td>Candela</td>
-<td>cd</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<caption>Derived SI units.</caption>
-<thead>
-<tr class="header">
-<th>Physical Quantity</th>
-<th>Derived SI Unit</th>
-<th>Symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Area</td>
-<td>Square meter</td>
-<td>m²</td>
-</tr>
-<tr class="even">
-<td>Volume</td>
-<td>Cubic meter</td>
-<td>m³</td>
-</tr>
-<tr class="odd">
-<td>Speed</td>
-<td>Meter per second</td>
-<td>m/s</td>
-</tr>
-<tr class="even">
-<td>Acceleration</td>
-<td>Meter per second squared</td>
-<td>m/s<sup>2</sup></td>
-</tr>
-<tr class="odd">
-<td>Force</td>
-<td>Newton</td>
-<td>N</td>
-</tr>
-<tr class="even">
-<td>Pressure</td>
-<td>Pascal</td>
-<td>Pa</td>
-</tr>
-<tr class="odd">
-<td>Energy</td>
-<td>Joule</td>
-<td>J</td>
-</tr>
-<tr class="even">
-<td>Power</td>
-<td>Watt</td>
-<td>W</td>
-</tr>
-<tr class="odd">
-<td>Electric Charge</td>
-<td>Coulomb</td>
-<td>C</td>
-</tr>
-<tr class="even">
-<td>Electric Potential</td>
-<td>Volt</td>
-<td>V</td>
-</tr>
-<tr class="odd">
-<td>Resistance</td>
-<td>Ohm</td>
-<td>Ω</td>
-</tr>
-<tr class="even">
-<td>Capacitance</td>
-<td>Farad</td>
-<td>F</td>
-</tr>
-<tr class="odd">
-<td>Frequency</td>
-<td>Hertz</td>
-<td>Hz</td>
-</tr>
-<tr class="even">
-<td>Luminous Flux</td>
-<td>Lumen</td>
-<td>lm</td>
-</tr>
-<tr class="odd">
-<td>Illuminance</td>
-<td>Lux</td>
-<td>lx</td>
-</tr>
-<tr class="even">
-<td>Specific Energy</td>
-<td>Joule per kilogram</td>
-<td>J/kg</td>
-</tr>
-<tr class="odd">
-<td>Specific Heat Capacity</td>
-<td>Joule per kilogram Kelvin</td>
-<td>J/(kg·K)</td>
-</tr>
-</tbody>
-</table>
-<div style="page-break-after: always;"></div>
-<table class="caption-top table">
-<caption>Common multiples and submultiples for SI units.</caption>
-<thead>
-<tr class="header">
-<th>Factor</th>
-<th>Prefix</th>
-<th>Symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>10<sup>9</sup></td>
-<td>giga</td>
-<td>G</td>
-</tr>
-<tr class="even">
-<td>10<sup>6</sup></td>
-<td>mega</td>
-<td>M</td>
-</tr>
-<tr class="odd">
-<td>10<sup>3</sup></td>
-<td>kilo</td>
-<td>k</td>
-</tr>
-<tr class="even">
-<td>10<sup>2</sup></td>
-<td>hecto</td>
-<td>h</td>
-</tr>
-<tr class="odd">
-<td>10<sup>1</sup></td>
-<td>deca</td>
-<td>da</td>
-</tr>
-<tr class="even">
-<td>10<sup>-1</sup></td>
-<td>deci</td>
-<td>d</td>
-</tr>
-<tr class="odd">
-<td>10<sup>-2</sup></td>
-<td>centi</td>
-<td>c</td>
-</tr>
-<tr class="even">
-<td>10<sup>-3</sup></td>
-<td>milli</td>
-<td>m</td>
-</tr>
-<tr class="odd">
-<td>10<sup>-6</sup></td>
-<td>micro</td>
-<td>µ</td>
-</tr>
-</tbody>
-</table>
-<section id="unity-fraction" class="level3" data-number="1.2.1">
-<h3 data-number="1.2.1" class="anchored" data-anchor-id="unity-fraction"><span class="header-section-number">1.2.1</span> Unity Fraction</h3>
-<p>The <strong>unity fraction</strong> method, or <strong>unit conversion using unity fractions</strong>, is a systematic way to convert one unit of measurement into another. This method relies on multiplying by fractions that are equal to one, where the numerator and the denominator represent the same quantity in different units. Since any number multiplied by one remains the same, unity fractions allow for seamless conversion without changing the value.</p>
-<p>The principle of unity fractions is based on:</p>
-<ol type="1">
-<li><p><strong>Setting up equal values</strong>: Write a fraction where the numerator and denominator are equivalent values in different units, so the fraction equals one. For example, <span class="math inline">\(\frac{1km}{1000m}\)</span> is a unity fraction because 1 km equals 1000 m.</p></li>
-<li><p><strong>Multiplying by unity fractions</strong>: Multiply the initial quantity by the unity fraction(s) so that the undesired units cancel out, leaving only the desired units.</p></li>
-</ol>
+<section id="concepts" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="concepts"><span class="header-section-number">7.2</span> Concepts</h2>
+<p>Internal combustion (IC) engines are given this name due to the combustion of the fuel taking place inside the engine. When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.</p>
+<p>With IC engines the method of igniting the fuel shows a fundamental difference between the diesel engine and the petrol engine. In diesel engines the air in the cylinder is compressed to a high pressure and therefore, following the gas laws, the air reaches a high temperature. When the fuel is injected into this high temperature it ignites after a short delay (see the section on combustion and heat release).</p>
+<p>When the ignition of the fuel is only caused by the heat from the compression of the air, the engine is classed as a compression–ignition (CI) engine. In petrol engines the fuel is usually taken in with the charge of air. The charge is compressed and then ignited by an electrically induced spark. These engines are designated as spark ignition (SI) engines.</p>
 </section>
+<section id="classwork" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="classwork"><span class="header-section-number">7.3</span> Classwork</h2>
 </section>
-<section id="classwork" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="classwork"><span class="header-section-number">1.3</span> Classwork</h2>
-<div id="exm-0" class="theorem example">
-<p><span class="theorem-title"><strong>Example 1.1</strong></span> Suppose we want to convert <span class="math inline">\(5\)</span> kilometers to meters.</p>
-<ol type="1">
-<li>Start with <span class="math inline">\(5\)</span> kilometers: <span class="math display">\[
-5 \, \text{km}
-\]</span></li>
-<li>Multiply by a unity fraction that cancels kilometers and introduces meters. We use <span class="math inline">\((\frac{1000 \, \text{m}}{1 \, \text{km}}), since\:1 \, \text{km} = 1000 \, \text{m}\)</span>:</li>
-</ol>
-<p><span class="math display">\[5 \, \text{km} \times \frac{1000 \, \text{m}}{1 \, \text{km}} = 5000 \, \text{m}\]</span></p>
-<ol start="3" type="1">
-<li>The kilometers <span class="math inline">\(\text{km}\)</span> cancel out, leaving us with meters <span class="math inline">\(\text{m}\)</span>:</li>
-</ol>
-<p><span class="math display">\[
-5 \, \text{km} = 5000 \, \text{m}
-\]</span></p>
-<p>This step-by-step approach illustrates how the unity fraction cancels the undesired units and achieves the correct result in meters.</p>
-<p>Unity fractions can be extended by using multiple conversion steps. For example, converting hours to seconds would require two unity fractions: one to convert hours to minutes and another to convert minutes to seconds. This approach ensures accuracy and is widely used in science, engineering, and other fields that require precise unit conversions.</p>
-</div>
-<div id="exm-00" class="theorem example">
-<p><span class="theorem-title"><strong>Example 1.2</strong></span> Convert <span class="math inline">\(15 \, \text{m/s}\)</span> to <span class="math inline">\(\text{km/h}\)</span>.</p>
-<ol type="1">
-<li>Start with <span class="math inline">\(15 \, \text{m/s}\)</span>.</li>
-<li>To convert meters to kilometers, multiply by <span class="math inline">\(\frac{1 \, \text{km}}{1000 \, \text{m}}\)</span>.</li>
-<li>To convert seconds to hours, multiply by <span class="math inline">\(\frac{3600 \, \text{s}}{1 \, \text{h}}\)</span>.</li>
-</ol>
-<p><span class="math display">\[
-15 \, \text{m/s} \times \frac{1 \, \text{km}}{1000 \, \text{m}} \times \frac{3600 \, \text{s}}{1 \, \text{h}} = 54 \, \text{km/h}
-\]</span></p>
-<p>The meters and seconds cancel out, leaving kilometers per hour: <span class="math inline">\(54 \, \text{km/h}\)</span>.</p>
-</div>
+<section id="problem-set" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="problem-set"><span class="header-section-number">7.4</span> Problem Set</h2>
 </section>
-<section id="problem-set" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="problem-set"><span class="header-section-number">1.4</span> Problem Set</h2>
-<p><strong>Instructions:</strong></p>
-<ol type="1">
-<li><p>Use unity fraction to convert between derived SI units.</p></li>
-<li><p>Show each step of your work to ensure accuracy.</p></li>
-<li><p>Simplify your answers and include correct units.</p></li>
-</ol>
-<hr>
-<ol type="1">
-<li><p><strong>Speed</strong><br>
-Convert <span class="math inline">\(72 \, \text{km/h}\)</span> to <span class="math inline">\(\text{m/s}\)</span>.</p></li>
-<li><p><strong>Force</strong><br>
-Convert <span class="math inline">\(980 \, \text{N}\)</span> (newtons) to <span class="math inline">\(\text{kg} \cdot \text{m/s}^2\)</span>.</p></li>
-<li><p><strong>Energy</strong><br>
-Convert <span class="math inline">\(2500 \, \text{J}\)</span> (joules) to <span class="math inline">\(\text{kJ}\)</span>.</p></li>
-<li><p><strong>Power</strong><br>
-Convert <span class="math inline">\(1500 \, \text{W}\)</span> (watts) to <span class="math inline">\(\text{kW}\)</span>.</p></li>
-<li><p><strong>Pressure</strong><br>
-Convert <span class="math inline">\(101325 \, \text{Pa}\)</span> (pascals) to <span class="math inline">\(\text{kPa}\)</span>.</p></li>
-<li><p><strong>Volume Flow Rate</strong><br>
-Convert <span class="math inline">\(3 \, \text{m}^3/\text{min}\)</span> to <span class="math inline">\(\text{L/s}\)</span>.</p></li>
-<li><p><strong>Density</strong><br>
-Convert <span class="math inline">\(1000 \, \text{kg/m}^3\)</span> to <span class="math inline">\(\text{g/cm}^3\)</span>.</p></li>
-<li><p><strong>Acceleration</strong><br>
-Convert <span class="math inline">\(9.8 \, \text{m/s}^2\)</span> to <span class="math inline">\(\text{cm/s}^2\)</span>.</p></li>
-<li><p><strong>Torque</strong><br>
-Convert <span class="math inline">\(50 \, \text{N} \cdot \text{m}\)</span> to <span class="math inline">\(\text{kN} \cdot \text{cm}\)</span>.</p></li>
-<li><p><strong>Frequency</strong><br>
-Convert <span class="math inline">\(500 \, \text{Hz}\)</span> (hertz) to <span class="math inline">\(\text{kHz}\)</span>.</p></li>
-<li><p><strong>Work to Energy Conversion</strong><br>
-A force of <span class="math inline">\(20 \, \text{N}\)</span> moves an object <span class="math inline">\(500 \, \text{cm}\)</span>. Convert the work done to joules.</p></li>
-<li><p><strong>Kinetic Energy Conversion</strong><br>
-Calculate the kinetic energy in kilojoules of a <span class="math inline">\(1500 \, \text{kg}\)</span> car moving at <span class="math inline">\(72 \, \text{km/h}\)</span>.</p></li>
-<li><p><strong>Power to Energy Conversion</strong><br>
-A machine operates at <span class="math inline">\(2 \, \text{kW}\)</span> for <span class="math inline">\(3\)</span> hours. Convert the energy used to megajoules.</p></li>
-<li><p><strong>Pressure to Force Conversion</strong><br>
-Convert a pressure of <span class="math inline">\(200 \, \text{kPa}\)</span> applied to an area of <span class="math inline">\(0.5 \, \text{m}^2\)</span> to force in newtons.</p></li>
-<li><p><strong>Density to Mass Conversion</strong><br>
-Convert <span class="math inline">\(0.8 \, \text{g/cm}^3\)</span> for an object with a volume of <span class="math inline">\(250 \, \text{cm}^3\)</span> to mass in grams.</p></li>
-</ol>
-<hr>
-<section id="answer-key" class="level3" data-number="1.4.1">
-<h3 data-number="1.4.1" class="anchored" data-anchor-id="answer-key"><span class="header-section-number">1.4.1</span> Answer Key</h3>
-<ol type="1">
-<li><span class="math inline">\(72 \, \text{km/h} = 20 \, \text{m/s}\)</span></li>
-<li><span class="math inline">\(980 \, \text{N} = 980 \, \text{kg} \cdot \text{m/s}^2\)</span></li>
-<li><span class="math inline">\(2500 \, \text{J} = 2.5 \, \text{kJ}\)</span></li>
-<li><span class="math inline">\(1500 \, \text{W} = 1.5 \, \text{kW}\)</span></li>
-<li><span class="math inline">\(101325 \, \text{Pa} = 101.325 \, \text{kPa}\)</span></li>
-<li><span class="math inline">\(3 \, \text{m}^3/\text{min} = 50 \, \text{L/s}\)</span></li>
-<li><span class="math inline">\(1000 \, \text{kg/m}^3 = 1 \, \text{g/cm}^3\)</span></li>
-<li><span class="math inline">\(9.8 \, \text{m/s}^2 = 980 \, \text{cm/s}^2\)</span></li>
-<li><span class="math inline">\(50 \, \text{N} \cdot \text{m} = 0.5 \, \text{kN} \cdot \text{cm}\)</span></li>
-<li><span class="math inline">\(500 \, \text{Hz} = 0.5 \, \text{kHz}\)</span></li>
-<li><span class="math inline">\(20 \, \text{N} \times 5 \, \text{m} = 100 \, \text{J}\)</span></li>
-<li><span class="math inline">\(\text{Kinetic energy} = 1500 \, \text{kg} \times \left(20 \, \text{m/s}\right)^2 / 2 = 300 \, \text{kJ}\)</span></li>
-<li><span class="math inline">\(2 \, \text{kW} \times 3 \, \text{hours} = 21.6 \, \text{MJ}\)</span></li>
-<li><span class="math inline">\(200 \, \text{kPa} \times 0.5 \, \text{m}^2 = 100,000 \, \text{N}\)</span></li>
-<li><span class="math inline">\(0.8 \, \text{g/cm}^3 \times 250 \, \text{cm}^3 = 200 \, \text{g}\)</span></li>
-</ol>
-</section>
-</section>
-<section id="further-reading" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">1.5</span> Further Reading</h2>
-<p>Read Chapter 1in <span class="citation" data-cites="russell2022">Russell, Embleton, and Jackson (<a href="references.html#ref-russell2022" role="doc-biblioref">2022</a>)</span> and complete the end of chapter problems.</p>
+<section id="further-reading" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">7.5</span> Further Reading</h2>
+<p>Read Chapter 7 in <span class="citation" data-cites="russell2022">Russell, Embleton, and Jackson (<a href="references.html#ref-russell2022" role="doc-biblioref">2022</a>)</span>, for additional information.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -1165,13 +829,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Preface">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./expansion-and-compression-of-gases.html" class="pagination-link" aria-label="Expansion and Compression of Gases">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Expansion and Compression of Gases</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./heat.html" class="pagination-link" aria-label="Heat">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Heat</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text">Summary</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
