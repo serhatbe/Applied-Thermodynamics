@@ -5,8 +5,13 @@ project:
 book:
   title: "Applied Thermodynamics Workbook"
   subtitle: "Supplementary Exercises for In-Class Learning"
+  site-url: https://serhatbe.github.io/Applied-Thermodynamics/
+  navbar:
+    right:
+      - icon: rss
+        href: index.xml
   author: "Serhat Beyenir"
-  date: "2024-11-06"
+  date: today
   date-format: "MMMM D, YYYY"
   cover-image: images/cover.png
   downloads: [pdf]
@@ -20,6 +25,7 @@ book:
     - si-units.qmd
     - summary.qmd
     - references.qmd
+
 
 bibliography: references.bib
 
