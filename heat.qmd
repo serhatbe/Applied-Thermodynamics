@@ -2,33 +2,27 @@
 
 ## Objectives
 
--   Define and explain internal energy, heat, specific heat, heat units, temperature and explain the relationship between the different scales of temperature measurement.
+-   Define heat, specific heat, temperature, and explain temperature measurement scales.
 
--   Define sensible heat and use the sensible heat equation to calculate the heat required to change the temperature of a substance, the mass of the substance, and the temperature change, if no change of state occurs.
+-   Explain state changes, latent heat, including fusion and evaporation, and their role in energy transfer.
 
--   Explain the changes of state and define latent heat, latent heat of fusion, and latent heat of evaporation.
+-   Calculate the heat required to change the state of water and other substances.
 
--   Given start and end conditions, calculate the heat required to change the states of water and other substances.
+-   Describe a simple calorimeter and use the calorimeter equation to calculate specific heat and final temperature.
 
--   Determine the final temperatures and the original masses for mixtures of ice, water, steam, and other substances.
-
--   Explain the principle of a simple calorimeter and use the calorimeter equation to determine specific heat and final temperature.
-
--   Explain water equivalent and perform calorimeter and heat calculations involving water equivalents.
+-   Calculate water equivalents and perform calorimeter and heat calculations.
 
 ## Concepts
 
 ### Temperature
 
-We commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”
+Temperature quantifies hotness or coldness and is measured with a thermometer. It reflects the average kinetic energy of vibrating and colliding atoms.
 
-For example, consider a quantity of water with a large amount of internal energy (that is, the water is “hot”). As the molecules move about at high velocity, they collide with each other very frequently and quite violently. If a mercury-in-glass thermometer is placed in the water, the water molecules collide with the glass molecules, which, in turn, begin to move more rapidly as energy is transferred to them. The glass molecules collide with each other and then with the mercury molecules inside the thermometer. This energy transfer to the mercury molecules causes them to move more randomly and the mercury expands up into the thermometer tube. Eventually, the energy levels of the water, glass, and mercury molecules reach the same level and energy transfer between them ceases. At that point the thermometer is indicating the temperature of the water, which is really an indication of the internal energy of the water.
+Thermometers are calibrated in various temperature scales, including Celsius (°C), Fahrenheit (°F), and Kelvin (K). Kelvin is the primary scientific scale and one of the seven base units in the International System of Units (SI).
 
 #### Temperature Scales
 
-There are four measurement scales used to define temperature. The most common, for everyday use, are the Fahrenheit and Celsius scales, while the Rankine and Kelvin scales are used largely for specific scientific, thermodynamic calculations. Each scale has its own importance and the relationships between the scales must be understood to successfully complete many calculations.
-
-@fig-temp-scale shows the relationship between these scales and the key temperatures of consideration for each. Refer to @fig-temp-scale during the descriptions of each scale.
+@fig-temp-scale shows the relationship between temperature scales and the key temperatures of consideration for each. Refer to @fig-temp-scale during the descriptions of each scale.
 
 Note that there are three temperatures that are used as the key reference points for these scales. These are:
 
