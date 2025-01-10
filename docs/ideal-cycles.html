@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Summary – Applied Thermodynamics Workbook</title>
+<title>8&nbsp; Ideal Cycles – Applied Thermodynamics Workbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
-<link href="./ideal-cycles.html" rel="prev">
+<link href="./summary.html" rel="next">
+<link href="./internal-combustion-engines.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -91,6 +91,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -103,7 +132,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./summary.html">Summary</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ideal-cycles.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ideal Cycles</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -182,13 +211,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ideal-cycles.html" class="sidebar-item-text sidebar-link">
+  <a href="./ideal-cycles.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ideal Cycles</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link active">
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Summary</span></a>
   </div>
 </li>
@@ -203,15 +232,28 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives"><span class="header-section-number">8.1</span> Objectives</a></li>
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts"><span class="header-section-number">8.2</span> Concepts</a>
+  <ul class="collapse">
+  <li><a href="#boyles-law" id="toc-boyles-law" class="nav-link" data-scroll-target="#boyles-law"><span class="header-section-number">8.2.1</span> Boyle’s Law</a></li>
+  </ul></li>
+  <li><a href="#classwork" id="toc-classwork" class="nav-link" data-scroll-target="#classwork"><span class="header-section-number">8.3</span> Classwork</a></li>
+  <li><a href="#problem-set" id="toc-problem-set" class="nav-link" data-scroll-target="#problem-set"><span class="header-section-number">8.4</span> Problem Set</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">8.5</span> Further Reading</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Summary</h1>
+<h1 class="title"><span id="sec-ideal-cycles" class="quarto-section-identifier"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ideal Cycles</span></span></h1>
 </div>
 
 
@@ -228,33 +270,42 @@ div.csl-indent {
 </header>
 
 
-<p>You have solved a great many problems in your studies this term, reading various texts like <span class="citation" data-cites="joelBasicEngineeringThermodynamics1996">Joel (<a href="references.html#ref-joelBasicEngineeringThermodynamics1996" role="doc-biblioref">1996</a>)</span>, <span class="citation" data-cites="russell2022">Russell, Embleton, and Jackson (<a href="references.html#ref-russell2022" role="doc-biblioref">2022</a>)</span>, <span class="citation" data-cites="fermiThermodynamics1956">Fermi (<a href="references.html#ref-fermiThermodynamics1956" role="doc-biblioref">1956</a>)</span> and <span class="citation" data-cites="polyaHowSolveIt2014">Polya and Conway (<a href="references.html#ref-polyaHowSolveIt2014" role="doc-biblioref">2014</a>)</span>. These sources have helped you understand complex concepts.</p>
-<p>As you near the final exam, remember that your knowledge and skills will help you succeed in your future courses. Stay confident, trust your preparation, and be composed. You have put in a lot of effort; now’s the time to show what you know.</p>
-<p>We wish you the best on the exam.</p>
-<p><a href="si-units.html" class="quarto-xref"><span>1&nbsp; International System of Units</span></a>: Mastering and practicing SI units may seem like a small step, but it’s a powerful one! Building a strong foundation in SI units will not only support you in this course but will also give you a solid footing in future studies and practical applications. This skill is essential in so many courses, and your efforts now are setting you up for success.</p>
-<p><a href="heat.html" class="quarto-xref"><span>2&nbsp; Heat</span></a>: We commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”</p>
-<p><a href="thermal-expansion.html" class="quarto-xref"><span>3&nbsp; Thermal Expansion</span></a>: Linear expansion refers to a change in one direction (or dimension) only. Generally, it occurs in a long, relatively thin object where the predominant dimension under consideration is length.</p>
-<p><a href="heat-transfer.html" class="quarto-xref"><span>4&nbsp; Heat Transfer</span></a>: Explain the methods of heat transfer: conduction, convection, and radiation.</p>
-<p><a href="gas-laws.html" class="quarto-xref"><span>5&nbsp; Gas Laws</span></a>: A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.</p>
-<p><a href="expansion-and-compression-of-gases.html" class="quarto-xref"><span>6&nbsp; Expansion and Compression of Gases</span></a>: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.</p>
-<p><a href="internal-combustion-engines.html" class="quarto-xref"><span>7&nbsp; Internal Combustion Engines</span></a>: When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.</p>
-<p><a href="ideal-cycles.html" class="quarto-xref"><span>8&nbsp; Ideal Cycles</span></a>: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.</p>
+<section id="objectives" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="objectives"><span class="header-section-number">8.1</span> Objectives</h2>
+<ul>
+<li>Explain</li>
+<li>Explain</li>
+<li>Explain</li>
+</ul>
+</section>
+<section id="concepts" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="concepts"><span class="header-section-number">8.2</span> Concepts</h2>
+<p>A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.</p>
+<section id="boyles-law" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="boyles-law"><span class="header-section-number">8.2.1</span> Boyle’s Law</h3>
+<p>A physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\index{Boyle’s Law}</p>
+<p><span id="eq-boyle"><span class="math display">\[
+P\propto\frac{1}{V}
+\tag{8.1}\]</span></span></p>
+</section>
+</section>
+<section id="classwork" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="classwork"><span class="header-section-number">8.3</span> Classwork</h2>
+</section>
+<section id="problem-set" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="problem-set"><span class="header-section-number">8.4</span> Problem Set</h2>
+</section>
+<section id="further-reading" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">8.5</span> Further Reading</h2>
+<p>Read Chapter 8 in <span class="citation" data-cites="russell2022">Russell, Embleton, and Jackson (<a href="references.html#ref-russell2022" role="doc-biblioref">2022</a>)</span>, for additional information.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-fermiThermodynamics1956" class="csl-entry" role="listitem">
-Fermi, Enrico. 1956. <em>Thermodynamics</em>. New ed.
-</div>
-<div id="ref-joelBasicEngineeringThermodynamics1996" class="csl-entry" role="listitem">
-Joel, Rayner. 1996. <em>Basic Engineering Thermodynamics</em>. 5th ed. Pearson/Prenctice Hall.
-</div>
-<div id="ref-polyaHowSolveIt2014" class="csl-entry" role="listitem">
-Polya, G., and John H. Conway. 2014. <em>How to Solve It: A New Aspect of Mathematical Method</em>. With a Foreword by John H. Con ed. edition. Princeton Oxford: Princeton University Press.
-</div>
 <div id="ref-russell2022" class="csl-entry" role="listitem">
 Russell, Paul A., William Embleton, and Leslie Jackson. 2022. <em>Applied Thermodynamics for Marine Engineers</em>. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.
 </div>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -820,13 +871,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ideal-cycles.html" class="pagination-link" aria-label="Ideal Cycles">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Ideal Cycles</span></span>
+      <a href="./internal-combustion-engines.html" class="pagination-link" aria-label="Internal Combustion Engines">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Internal Combustion Engines</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text">Summary</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
