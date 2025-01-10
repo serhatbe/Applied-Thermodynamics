@@ -5,3 +5,19 @@ You have solved a great many problems in your studies this term, reading various
 As you near the final exam, remember that your knowledge and skills will help you succeed in your future courses. Stay confident, trust your preparation, and be composed. You have put in a lot of effort; now’s the time to show what you know.
 
 We wish you the best on the exam.
+
+@sec-international-system-of-units: Mastering and practicing SI units may seem like a small step, but it’s a powerful one! Building a strong foundation in SI units will not only support you in this course but will also give you a solid footing in future studies and practical applications. This skill is essential in so many courses, and your efforts now are setting you up for success.
+
+@sec-heat: We commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”
+
+@sec-thermal-expansion: Linear expansion refers to a change in one direction (or dimension) only. Generally, it occurs in a long, relatively thin object where the predominant dimension under consideration is length.
+
+@sec-heat-transfer: Explain the methods of heat transfer: conduction, convection, and radiation.
+
+@sec-gas-laws: A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.
+
+@sec-expansion-and-compression-of-gases: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.
+
+@sec-internal-combustion-engines: When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.
+
+@sec-ideal-cycles: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.
