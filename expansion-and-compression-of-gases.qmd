@@ -6,17 +6,15 @@
 -   Explain and calculate the work done in a cylinder during an adiabatic expansion or compression.
 -   Explain and calculate the work done in a cylinder during a polytropic expansion or compression.
 
-## Concepts
-
 To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature. This pressure exerts force upon a piston, causing the piston to move within the cylinder. As the piston moves, the volume of the gas increases and the pressure drops, until the gas is exhausted from the cylinder. During expansion, unless heat is added to the gas from an external source, the work performed by the gas results in a reduction in temperature.
 
 To compress a gas, external work is applied to the gas to reduce the volume and increase the pressure of the gas. One familiar example is a reciprocating air compressor, in which air is trapped inside a closed cylinder and a moving piston, driven by an external motor or engine, compresses the air within the cylinder before it is released from the cylinder at higher pressure. This compression requires that work be performed on the air, causing the air temperature to increase as it is compressed. Unless heat is somehow removed, through cooling, the temperature of a gas will increase when it is compressed.
 
-### Isothermal Compression and Expansion
+## Isothermal Compression and Expansion
 
 If compression or expansion occurs with no change in the temperature of the gas, then the process is called an isothermal\index{Isothermal} process and Boyle's Law, as described previously, applies to the process. That is, the relationship between any two points in the process can be stated as:
 
-### Adiabatic Compression and Expansion
+## Adiabatic Compression and Expansion
 
 If compression or expansion of a gas occurs with no external transfer of heat to or from the gas, then the process is said to be adiabatic\index{Adiabatic}. Since no heat transfer can occur, the cylinder must be perfectly insulated.
 
@@ -26,7 +24,7 @@ For an adiabatic process, the relationship between pressure and volume is stated
 
 In this relationship, $\gamma$ (Greek letter gamma) is called the “index of compression or expansion”. It is calculated as the ratio of the specific heat of the gas at constant pressure $c_p$ to the specific heat of the gas at constant volume $c_v$.
 
-### Polytropic Compression and Expansion
+## Polytropic Compression and Expansion
 
 The isothermal and adiabatic processes are both theoretical processes, which can only be approached, but never perfectly achieved. There can never be perfect cooling, nor perfect insulating of a cylinder. Consequently, there is always some heat loss, some heat gain, and/or some temperature change. This more practical process, in which there is a partial transfer of heat to/from the gas, is called polytropic\index{Polytropic} and the relationship between pressure and volume is stated as:
 

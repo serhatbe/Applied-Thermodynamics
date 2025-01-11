@@ -12,15 +12,14 @@
 
 -   Calculate water equivalents and perform calorimeter and heat calculations.
 
-## Concepts
 
-### Temperature
+## Temperature
 
 Temperature quantifies hotness or coldness and is measured with a thermometer. It reflects the average kinetic energy of vibrating and colliding atoms.
 
 Thermometers are calibrated in various temperature scales, including Celsius (°C), Fahrenheit (°F), and Kelvin (K). Kelvin is the primary scientific scale and one of the seven base units in the International System of Units (SI).
 
-#### Temperature Scales
+### Temperature Scales
 
 @fig-temp-scale shows the relationship between temperature scales and the key temperatures of consideration for each. Refer to @fig-temp-scale during the descriptions of each scale.
 

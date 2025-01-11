@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Applied Thermodynamics Workbook",
     "section": "",
-    "text": "Preface\nThis workbook is a collection of lecture notes on Applied Thermodynamics. It aims to provide concise yet essential insights into the topics covered in class. Each chapter includes a problem set designed to help you understand the material better.\n1  International System of Units: Mastering and practicing SI units may seem like a small step, but it’s a powerful one! Building a strong foundation in SI units will not only support you in this course but will also give you a solid footing in future studies and practical applications. This skill is essential in so many courses, and your efforts now are setting you up for success.\n2  Heat: We commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”\n3  Thermal Expansion: Linear expansion refers to a change in one direction (or dimension) only. Generally, it occurs in a long, relatively thin object where the predominant dimension under consideration is length.\n4  Heat Transfer: Explain the methods of heat transfer: conduction, convection, and radiation.\n5  Gas Laws: A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.\n6  Expansion and Compression of Gases: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.\n7  Internal Combustion Engines: When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.\n8  Ideal Cycles: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.",
+    "text": "Preface\nThis workbook is a collection of lecture notes on Applied Thermodynamics. It aims to provide concise yet essential insights into the topics covered in class. Each chapter includes a problem set designed to help you understand the material better.\n1  International System of Units: Mastering and practising SI units may seem like a small step, but it’s a powerful one! Building a strong foundation in SI units will not only support you in this course but will also give you a solid footing in future studies and practical applications. This skill is essential in so many courses, and your efforts now are setting you up for success.\n2  Heat: We commonly think of temperature as an indication of the degree of hotness or coldness in a body. A more accurate definition would be “a measure of the level, or intensity of internal energy.”\n3  Thermal Expansion: Linear expansion refers to a change in one direction (or dimension) only. Generally, it occurs in a long, relatively thin object where the predominant dimension under consideration is length.\n4  Heat Transfer: Explain the methods of heat transfer: conduction, convection, and radiation.\n5  Gas Laws: A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.\n6  Expansion and Compression of Gases: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.\n7  Internal Combustion Engines: When the fuel burns inside the engine’s cylinder, it gives out heat which is absorbed by the air previously taken into the cylinder, the temperature of the air is therefore increased with a consequent increase in pressure and/or change in volume and the piston moves due to the heat energy imparted to it. The reciprocating motion of the piston is converted into a rotary motion in the crankshaft by the connecting rod and crank or piston rod, cross-head and crank in the case of the large two- stroke marine engines.\n8  Ideal Cycles: To expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature.",
     "crumbs": [
       "Preface"
     ]
@@ -150,11 +150,11 @@
     ]
   },
   {
-    "objectID": "heat.html#concepts",
-    "href": "heat.html#concepts",
+    "objectID": "heat.html#temperature",
+    "href": "heat.html#temperature",
     "title": "2  Heat",
-    "section": "2.2 Concepts",
-    "text": "2.2 Concepts\n\n2.2.1 Temperature\nTemperature quantifies hotness or coldness and is measured with a thermometer. It reflects the average kinetic energy of vibrating and colliding atoms.\nThermometers are calibrated in various temperature scales, including Celsius (°C), Fahrenheit (°F), and Kelvin (K). Kelvin is the primary scientific scale and one of the seven base units in the International System of Units (SI).\n\n2.2.1.1 Temperature Scales\nFigure 2.1 shows the relationship between temperature scales and the key temperatures of consideration for each. Refer to Figure 2.1 during the descriptions of each scale.\nNote that there are three temperatures that are used as the key reference points for these scales. These are:\n\nAbsolute zero\nFreezing point (temperature) of water at atmospheric pressure\nBoiling point (temperature) of water at atmospheric pressure\n\n\n\n\n\n\n\nFigure 2.1: Temperature Scales",
+    "section": "2.2 Temperature",
+    "text": "2.2 Temperature\nTemperature quantifies hotness or coldness and is measured with a thermometer. It reflects the average kinetic energy of vibrating and colliding atoms.\nThermometers are calibrated in various temperature scales, including Celsius (°C), Fahrenheit (°F), and Kelvin (K). Kelvin is the primary scientific scale and one of the seven base units in the International System of Units (SI).\n\n2.2.1 Temperature Scales\nFigure 2.1 shows the relationship between temperature scales and the key temperatures of consideration for each. Refer to Figure 2.1 during the descriptions of each scale.\nNote that there are three temperatures that are used as the key reference points for these scales. These are:\n\nAbsolute zero\nFreezing point (temperature) of water at atmospheric pressure\nBoiling point (temperature) of water at atmospheric pressure\n\n\n\n\n\n\n\nFigure 2.1: Temperature Scales",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Heat</span>"
     ]
@@ -194,7 +194,7 @@
     "href": "thermal-expansion.html",
     "title": "3  Thermal Expansion",
     "section": "",
-    "text": "3.1 Objectives",
+    "text": "3.1 Objectives\nThermal expansion is the tendency of materials to change their shape, area, and volume in response to a change in temperature. When most substances are heated, their particles move more vigorously and tend to occupy more space, leading to an increase in dimensions. Conversely, when substances are cooled, they generally contract. This phenomenon occurs in solids, liquids, and gases, although the degree and nature of expansion vary depending on the material’s state and properties.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
     ]
@@ -210,11 +210,31 @@
     ]
   },
   {
-    "objectID": "thermal-expansion.html#concepts",
-    "href": "thermal-expansion.html#concepts",
+    "objectID": "thermal-expansion.html#linear-expansion",
+    "href": "thermal-expansion.html#linear-expansion",
     "title": "3  Thermal Expansion",
-    "section": "3.2 Concepts",
-    "text": "3.2 Concepts\nThermal expansion is the tendency of materials to change their shape, area, and volume in response to a change in temperature. When most substances are heated, their particles move more vigorously and tend to occupy more space, leading to an increase in dimensions. Conversely, when substances are cooled, they generally contract. This phenomenon occurs in solids, liquids, and gases, although the degree and nature of expansion vary depending on the material’s state and properties.\n\n3.2.1 Linear Expansion\nThis occurs along a specific dimension or direction, primarily in long, narrow objects (like rods or beams). When the temperature of a solid object increases, its length expands by an amount proportional to its original length and the temperature change. The equation for linear expansion is:\n\\[\n\\Delta L = \\alpha L_0 \\Delta T\n\\tag{3.1}\\] where:\n\n\\(\\Delta L\\) is the change in length,\n\\(\\alpha\\) is the coefficient of linear expansion (unique to each material),\n\\(L_0\\) is the original length, and\n\\(\\Delta T\\) is the temperature change.\n\n\n\n3.2.2 Superficial Expansion\nApplicable to two-dimensional surfaces, such as sheets or plates. Here, both length and width expand, leading to an increase in surface area. The formula for area expansion is: \\[\n\\Delta A = 2 \\alpha A_0 \\Delta T\n\\tag{3.2}\\] where:\n\n\\(\\Delta A\\) is the change in area,\n\\(A_0\\) is the initial area, and\n\\(\\Delta T\\) is the temperature change.\n\n\n\n3.2.3 Volumetric Expansion\nRelevant for three-dimensional objects (like solids, liquids, and gases). The volume of an object expands with temperature, especially in fluids where this effect is more pronounced. The formula is: \\[\n\\Delta V = \\beta V_0 \\Delta T\n\\tag{3.3}\\]\nwhere:\n\n\\(\\Delta V\\) is the change in volume,\n\\(\\beta\\) is the coefficient of volumetric expansion, which is approximately three times the linear expansion coefficient for isotropic solids,\n\\(V_0\\) is the initial volume, and\n\\(\\Delta T\\) is the temperature change.",
+    "section": "3.2 Linear Expansion",
+    "text": "3.2 Linear Expansion\nThis occurs along a specific dimension or direction, primarily in long, narrow objects (like rods or beams). When the temperature of a solid object increases, its length expands by an amount proportional to its original length and the temperature change. The equation for linear expansion is:\n\\[\n\\Delta L = \\alpha L_0 \\Delta T\n\\tag{3.1}\\] where:\n\n\\(\\Delta L\\) is the change in length,\n\\(\\alpha\\) is the coefficient of linear expansion (unique to each material),\n\\(L_0\\) is the original length, and\n\\(\\Delta T\\) is the temperature change.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html#superficial-expansion",
+    "href": "thermal-expansion.html#superficial-expansion",
+    "title": "3  Thermal Expansion",
+    "section": "3.3 Superficial Expansion",
+    "text": "3.3 Superficial Expansion\nApplicable to two-dimensional surfaces, such as sheets or plates. Here, both length and width expand, leading to an increase in surface area. The formula for area expansion is: \\[\n\\Delta A = 2 \\alpha A_0 \\Delta T\n\\tag{3.2}\\] where:\n\n\\(\\Delta A\\) is the change in area,\n\\(A_0\\) is the initial area, and\n\\(\\Delta T\\) is the temperature change.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
+    ]
+  },
+  {
+    "objectID": "thermal-expansion.html#volumetric-expansion",
+    "href": "thermal-expansion.html#volumetric-expansion",
+    "title": "3  Thermal Expansion",
+    "section": "3.4 Volumetric Expansion",
+    "text": "3.4 Volumetric Expansion\nRelevant for three-dimensional objects (like solids, liquids, and gases). The volume of an object expands with temperature, especially in fluids where this effect is more pronounced. The formula is: \\[\n\\Delta V = \\beta V_0 \\Delta T\n\\tag{3.3}\\]\nwhere:\n\n\\(\\Delta V\\) is the change in volume,\n\\(\\beta\\) is the coefficient of volumetric expansion, which is approximately three times the linear expansion coefficient for isotropic solids,\n\\(V_0\\) is the initial volume, and\n\\(\\Delta T\\) is the temperature change.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
     ]
@@ -223,8 +243,8 @@
     "objectID": "thermal-expansion.html#classwork",
     "href": "thermal-expansion.html#classwork",
     "title": "3  Thermal Expansion",
-    "section": "3.3 Classwork",
-    "text": "3.3 Classwork",
+    "section": "3.5 Classwork",
+    "text": "3.5 Classwork",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
     ]
@@ -233,8 +253,8 @@
     "objectID": "thermal-expansion.html#problem-set",
     "href": "thermal-expansion.html#problem-set",
     "title": "3  Thermal Expansion",
-    "section": "3.4 Problem Set",
-    "text": "3.4 Problem Set",
+    "section": "3.6 Problem Set",
+    "text": "3.6 Problem Set",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
     ]
@@ -243,8 +263,8 @@
     "objectID": "thermal-expansion.html#further-reading",
     "href": "thermal-expansion.html#further-reading",
     "title": "3  Thermal Expansion",
-    "section": "3.5 Further Reading",
-    "text": "3.5 Further Reading\nRead Chapter 3 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "section": "3.7 Further Reading",
+    "text": "3.7 Further Reading\nRead Chapter 3 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Thermal Expansion</span>"
     ]
@@ -270,21 +290,31 @@
     ]
   },
   {
-    "objectID": "heat-transfer.html#concepts",
-    "href": "heat-transfer.html#concepts",
+    "objectID": "heat-transfer.html#conduction",
+    "href": "heat-transfer.html#conduction",
     "title": "4  Heat Transfer",
-    "section": "4.2 Concepts",
-    "text": "4.2 Concepts",
+    "section": "4.2 Conduction",
+    "text": "4.2 Conduction\nThis method involves the flow of heat from molecule to molecule within a single solid object or from the molecules of one object to those of another object when the two are in direct contact. Molecules at a high temperature are in rapid vibration and this vibration is transferred, through molecular collision, to adjacent molecules within the same body. This causes the adjacent molecules to vibrate faster, thus increasing the temperature.\nThis vibration transfer, and subsequent heat transfer, will also occur between the molecules of two different objects (or substances). If one object is at a higher temperature its molecules will be vibrating faster than those of the second object. Upon contact, the vibration energy will be passed to the second object, resulting in a transfer of heat and a temperature increase in the second object.\nAn example of conduction is an iron bar having one end in contact with a flame. The other end will soon become hot due to the conduction of heat from molecule to molecule through the iron.\n\\[\nQ=\\frac{kAt\\Delta T}{s}\n\\tag{4.1}\\]",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
     ]
   },
   {
-    "objectID": "heat-transfer.html#conduction",
-    "href": "heat-transfer.html#conduction",
+    "objectID": "heat-transfer.html#convection",
+    "href": "heat-transfer.html#convection",
     "title": "4  Heat Transfer",
-    "section": "4.3 Conduction",
-    "text": "4.3 Conduction\nThis method involves the flow of heat from molecule to molecule within a single solid object or from the molecules of one object to those of another object when the two are in direct contact. Molecules at a high temperature are in rapid vibration and this vibration is transferred, through molecular collision, to adjacent molecules within the same body. This causes the adjacent molecules to vibrate faster, thus increasing the temperature.\nThis vibration transfer, and subsequent heat transfer, will also occur between the molecules of two different objects (or substances). If one object is at a higher temperature its molecules will be vibrating faster than those of the second object. Upon contact, the vibration energy will be passed to the second object, resulting in a transfer of heat and a temperature increase in the second object.\nAn example of conduction is an iron bar having one end in contact with a flame. The other end will soon become hot due to the conduction of heat from molecule to molecule through the iron.\n\\[\nQ=\\frac{kAt\\Delta T}{s}\n\\tag{4.1}\\]\n\n4.3.1 Convection\nHeat transfer by convection involves the movement of a fluid (ie. a liquid or a gas). When a fluid is in contact with a hotter surface, the fluid near that surface will be heated, causing the fluid to expand and its density to decrease. Cooler, denser fluid will displace the heated fluid and will, in turn, become heated. This continuing process of heat transfer establishes a circulation of fluid (called a convection current), which then carries heat throughout the fluid.\nOne example involves water in a boiler, which is heated by means of convection currents. The part of the water in contact with the hot tube walls or shell will be heated and will be displaced by cooler water, which in turn is heated and displaced.\nLikewise, hot gases rising in a boiler stack, air rising from a room radiator, water heated in a heat exchanger and rising into a storage tank are all examples of convection. These are examples of natural convection, in which the fluid motion is created without the use of mechanical devices.\nIf fluid movement is created by a pump or a fan, heat is being transferred by forced convection. Examples are a pump circulating hot water through a building heating system, a fan forcing air through an automobile radiator, or a forced draft fan pushing hot gases through a boiler.\n\n\n4.3.2 Radiation\nHeat transfer by radiation involves the transmission of electromagnetic waves. All bodies emit these waves and the higher the body’s temperature the greater will be the emission. These waves are similar to light waves in they travel in straight lines and are able to pass through a vacuum. When they strike another body they are absorbed, reflected, or transmitted through, depending upon the material of the body. If the waves are absorbed by a body, the waves will increase the molecular activity of the body, thus creating an increase in temperature.\nThe condition of a body’s surface will determine the amount that is absorbed or reflected. A black, rough surface will readily absorb the radiant energy. A smooth, highly polished surface will reflect most of the radiant energy. Some substances, such as air, will absorb a small portion of the radiant energy, but will permit the majority of the energy to pass through.\nA typical example of radiation is heat reaching the earth from the sun. The energy waves first pass through the vacuum above the earth’s atmosphere and then through the atmosphere itself where a portion is absorbed. Upon striking the earth’s surface the remaining energy is absorbed and converted to heat.\nIn a steam boiler, radiation occurs in the furnace. Any heating surfaces that are directly exposed to the furnace will receive heat directly by radiation from the flame. These include the waterwalls and some generating tubes of a watertube boiler, radiant superheater tubes (located at the outlet of the furnace), and the furnace walls of a firetube boiler.",
+    "section": "4.3 Convection",
+    "text": "4.3 Convection\nHeat transfer by convection involves the movement of a fluid (ie. a liquid or a gas). When a fluid is in contact with a hotter surface, the fluid near that surface will be heated, causing the fluid to expand and its density to decrease. Cooler, denser fluid will displace the heated fluid and will, in turn, become heated. This continuing process of heat transfer establishes a circulation of fluid (called a convection current), which then carries heat throughout the fluid.\nOne example involves water in a boiler, which is heated by means of convection currents. The part of the water in contact with the hot tube walls or shell will be heated and will be displaced by cooler water, which in turn is heated and displaced.\nLikewise, hot gases rising in a boiler stack, air rising from a room radiator, water heated in a heat exchanger and rising into a storage tank are all examples of convection. These are examples of natural convection, in which the fluid motion is created without the use of mechanical devices.\nIf fluid movement is created by a pump or a fan, heat is being transferred by forced convection. Examples are a pump circulating hot water through a building heating system, a fan forcing air through an automobile radiator, or a forced draft fan pushing hot gases through a boiler.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
+    ]
+  },
+  {
+    "objectID": "heat-transfer.html#radiation",
+    "href": "heat-transfer.html#radiation",
+    "title": "4  Heat Transfer",
+    "section": "4.4 Radiation",
+    "text": "4.4 Radiation\nHeat transfer by radiation involves the transmission of electromagnetic waves. All bodies emit these waves and the higher the body’s temperature the greater will be the emission. These waves are similar to light waves in they travel in straight lines and are able to pass through a vacuum. When they strike another body they are absorbed, reflected, or transmitted through, depending upon the material of the body. If the waves are absorbed by a body, the waves will increase the molecular activity of the body, thus creating an increase in temperature.\nThe condition of a body’s surface will determine the amount that is absorbed or reflected. A black, rough surface will readily absorb the radiant energy. A smooth, highly polished surface will reflect most of the radiant energy. Some substances, such as air, will absorb a small portion of the radiant energy, but will permit the majority of the energy to pass through.\nA typical example of radiation is heat reaching the earth from the sun. The energy waves first pass through the vacuum above the earth’s atmosphere and then through the atmosphere itself where a portion is absorbed. Upon striking the earth’s surface the remaining energy is absorbed and converted to heat.\nIn a steam boiler, radiation occurs in the furnace. Any heating surfaces that are directly exposed to the furnace will receive heat directly by radiation from the flame. These include the waterwalls and some generating tubes of a watertube boiler, radiant superheater tubes (located at the outlet of the furnace), and the furnace walls of a firetube boiler.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
     ]
@@ -293,8 +323,8 @@
     "objectID": "heat-transfer.html#classwork",
     "href": "heat-transfer.html#classwork",
     "title": "4  Heat Transfer",
-    "section": "4.4 Classwork",
-    "text": "4.4 Classwork",
+    "section": "4.5 Classwork",
+    "text": "4.5 Classwork",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
     ]
@@ -303,8 +333,8 @@
     "objectID": "heat-transfer.html#problem-set",
     "href": "heat-transfer.html#problem-set",
     "title": "4  Heat Transfer",
-    "section": "4.5 Problem Set",
-    "text": "4.5 Problem Set",
+    "section": "4.6 Problem Set",
+    "text": "4.6 Problem Set",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
     ]
@@ -313,8 +343,8 @@
     "objectID": "heat-transfer.html#further-reading",
     "href": "heat-transfer.html#further-reading",
     "title": "4  Heat Transfer",
-    "section": "4.6 Further Reading",
-    "text": "4.6 Further Reading\nRead Chapter 4 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "section": "4.7 Further Reading",
+    "text": "4.7 Further Reading\nRead Chapter 4 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Heat Transfer</span>"
     ]
@@ -324,7 +354,7 @@
     "href": "gas-laws.html",
     "title": "5  Gas Laws",
     "section": "",
-    "text": "5.1 Objectives",
+    "text": "5.1 Objectives\nA perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.\nGases such as nitrogen, oxygen, and dry air can usually be treated as perfect gases. However, saturated steam is not considered a perfect gas, since it may condense under normal operating conditions. Although it is not technically a perfect gas, superheated steam, provided it never drops to the saturation temperature, does approximately act as a perfect gas.\nFor a perfect gas in a closed environment, there are specific relationships that exist between the temperature, pressure and volume of the gas. Furthermore, when any of these three conditions changes, the relationships between them can be used to predict and calculate the changes in the other conditions. For example, if the pressure and temperature change, it is possible to calculate what the change in pressure will be, and so on.\nThe relationships between pressure, temperature and volume have been proven by experimentation and have been described in three basic laws, called Laws of Perfect Gases. These laws are Boyle’s Law, Charles’ Laws, and the General Gas Law.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
     ]
@@ -340,11 +370,11 @@
     ]
   },
   {
-    "objectID": "gas-laws.html#concepts",
-    "href": "gas-laws.html#concepts",
+    "objectID": "gas-laws.html#boyles-law",
+    "href": "gas-laws.html#boyles-law",
     "title": "5  Gas Laws",
-    "section": "5.2 Concepts",
-    "text": "5.2 Concepts\nA perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.\nGases such as nitrogen, oxygen, and dry air can usually be treated as perfect gases. However, saturated steam is not considered a perfect gas, since it may condense under normal operating conditions. Although it is not technically a perfect gas, superheated steam, provided it never drops to the saturation temperature, does approximately act as a perfect gas.\nFor a perfect gas in a closed environment, there are specific relationships that exist between the temperature, pressure and volume of the gas. Furthermore, when any of these three conditions changes, the relationships between them can be used to predict and calculate the changes in the other conditions. For example, if the pressure and temperature change, it is possible to calculate what the change in pressure will be, and so on.\nThe relationships between pressure, temperature and volume have been proven by experimentation and have been described in three basic laws, called Laws of Perfect Gases. These laws are Boyle’s Law, Charles’ Laws, and the General Gas Law.\n\n5.2.1 Boyle’s Law\nA physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\\index{Boyle’s Law}\n\\[\nP\\propto\\frac{1}{V}\n\\tag{5.1}\\]",
+    "section": "5.2 Boyle’s Law",
+    "text": "5.2 Boyle’s Law\nA physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\\index{Boyle’s Law}\n\\[\nP\\propto\\frac{1}{V}\n\\tag{5.1}\\]",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gas Laws</span>"
     ]
@@ -384,7 +414,7 @@
     "href": "expansion-and-compression-of-gases.html",
     "title": "6  Expansion and Compression of Gases",
     "section": "",
-    "text": "6.1 Objectives",
+    "text": "6.1 Objectives\nTo expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature. This pressure exerts force upon a piston, causing the piston to move within the cylinder. As the piston moves, the volume of the gas increases and the pressure drops, until the gas is exhausted from the cylinder. During expansion, unless heat is added to the gas from an external source, the work performed by the gas results in a reduction in temperature.\nTo compress a gas, external work is applied to the gas to reduce the volume and increase the pressure of the gas. One familiar example is a reciprocating air compressor, in which air is trapped inside a closed cylinder and a moving piston, driven by an external motor or engine, compresses the air within the cylinder before it is released from the cylinder at higher pressure. This compression requires that work be performed on the air, causing the air temperature to increase as it is compressed. Unless heat is somehow removed, through cooling, the temperature of a gas will increase when it is compressed.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
     ]
@@ -400,11 +430,31 @@
     ]
   },
   {
-    "objectID": "expansion-and-compression-of-gases.html#concepts",
-    "href": "expansion-and-compression-of-gases.html#concepts",
+    "objectID": "expansion-and-compression-of-gases.html#isothermal-compression-and-expansion",
+    "href": "expansion-and-compression-of-gases.html#isothermal-compression-and-expansion",
     "title": "6  Expansion and Compression of Gases",
-    "section": "6.2 Concepts",
-    "text": "6.2 Concepts\nTo expand a gas, the gas is allowed to increase in volume and reduce in pressure. In this case, the gas itself is capable of performing work as it expands. For example, in an internal combustion engine, fuel is burned with air in a cylinder, producing high pressure and temperature. This pressure exerts force upon a piston, causing the piston to move within the cylinder. As the piston moves, the volume of the gas increases and the pressure drops, until the gas is exhausted from the cylinder. During expansion, unless heat is added to the gas from an external source, the work performed by the gas results in a reduction in temperature.\nTo compress a gas, external work is applied to the gas to reduce the volume and increase the pressure of the gas. One familiar example is a reciprocating air compressor, in which air is trapped inside a closed cylinder and a moving piston, driven by an external motor or engine, compresses the air within the cylinder before it is released from the cylinder at higher pressure. This compression requires that work be performed on the air, causing the air temperature to increase as it is compressed. Unless heat is somehow removed, through cooling, the temperature of a gas will increase when it is compressed.\n\n6.2.1 Isothermal Compression and Expansion\nIf compression or expansion occurs with no change in the temperature of the gas, then the process is called an isothermal process and Boyle’s Law, as described previously, applies to the process. That is, the relationship between any two points in the process can be stated as:\n\n\n6.2.2 Adiabatic Compression and Expansion\nIf compression or expansion of a gas occurs with no external transfer of heat to or from the gas, then the process is said to be adiabatic. Since no heat transfer can occur, the cylinder must be perfectly insulated.\nDuring an adiabatic expansion, the temperature of the expanding gas decreases. During an adiabatic compression, the temperature of the gas rises.\nFor an adiabatic process, the relationship between pressure and volume is stated as:\nIn this relationship, \\(\\gamma\\) (Greek letter gamma) is called the “index of compression or expansion”. It is calculated as the ratio of the specific heat of the gas at constant pressure \\(c_p\\) to the specific heat of the gas at constant volume \\(c_v\\).\n\n\n6.2.3 Polytropic Compression and Expansion\nThe isothermal and adiabatic processes are both theoretical processes, which can only be approached, but never perfectly achieved. There can never be perfect cooling, nor perfect insulating of a cylinder. Consequently, there is always some heat loss, some heat gain, and/or some temperature change. This more practical process, in which there is a partial transfer of heat to/from the gas, is called polytropic and the relationship between pressure and volume is stated as:",
+    "section": "6.2 Isothermal Compression and Expansion",
+    "text": "6.2 Isothermal Compression and Expansion\nIf compression or expansion occurs with no change in the temperature of the gas, then the process is called an isothermal process and Boyle’s Law, as described previously, applies to the process. That is, the relationship between any two points in the process can be stated as:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html#adiabatic-compression-and-expansion",
+    "href": "expansion-and-compression-of-gases.html#adiabatic-compression-and-expansion",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "6.3 Adiabatic Compression and Expansion",
+    "text": "6.3 Adiabatic Compression and Expansion\nIf compression or expansion of a gas occurs with no external transfer of heat to or from the gas, then the process is said to be adiabatic. Since no heat transfer can occur, the cylinder must be perfectly insulated.\nDuring an adiabatic expansion, the temperature of the expanding gas decreases. During an adiabatic compression, the temperature of the gas rises.\nFor an adiabatic process, the relationship between pressure and volume is stated as:\nIn this relationship, \\(\\gamma\\) (Greek letter gamma) is called the “index of compression or expansion”. It is calculated as the ratio of the specific heat of the gas at constant pressure \\(c_p\\) to the specific heat of the gas at constant volume \\(c_v\\).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
+    ]
+  },
+  {
+    "objectID": "expansion-and-compression-of-gases.html#polytropic-compression-and-expansion",
+    "href": "expansion-and-compression-of-gases.html#polytropic-compression-and-expansion",
+    "title": "6  Expansion and Compression of Gases",
+    "section": "6.4 Polytropic Compression and Expansion",
+    "text": "6.4 Polytropic Compression and Expansion\nThe isothermal and adiabatic processes are both theoretical processes, which can only be approached, but never perfectly achieved. There can never be perfect cooling, nor perfect insulating of a cylinder. Consequently, there is always some heat loss, some heat gain, and/or some temperature change. This more practical process, in which there is a partial transfer of heat to/from the gas, is called polytropic and the relationship between pressure and volume is stated as:",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
     ]
@@ -413,8 +463,8 @@
     "objectID": "expansion-and-compression-of-gases.html#classwork",
     "href": "expansion-and-compression-of-gases.html#classwork",
     "title": "6  Expansion and Compression of Gases",
-    "section": "6.3 Classwork",
-    "text": "6.3 Classwork",
+    "section": "6.5 Classwork",
+    "text": "6.5 Classwork",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
     ]
@@ -423,8 +473,8 @@
     "objectID": "expansion-and-compression-of-gases.html#problem-set",
     "href": "expansion-and-compression-of-gases.html#problem-set",
     "title": "6  Expansion and Compression of Gases",
-    "section": "6.4 Problem Set",
-    "text": "6.4 Problem Set",
+    "section": "6.6 Problem Set",
+    "text": "6.6 Problem Set",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
     ]
@@ -433,8 +483,8 @@
     "objectID": "expansion-and-compression-of-gases.html#further-reading",
     "href": "expansion-and-compression-of-gases.html#further-reading",
     "title": "6  Expansion and Compression of Gases",
-    "section": "6.5 Further Reading",
-    "text": "6.5 Further Reading\nRead Chapter 6 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
+    "section": "6.7 Further Reading",
+    "text": "6.7 Further Reading\nRead Chapter 6 in Russell, Embleton, and Jackson (2022), for additional information.\n\n\n\n\nRussell, Paul A., William Embleton, and Leslie Jackson. 2022. Applied Thermodynamics for Marine Engineers. 6th edition. Reed’s Marine Engineering and Technology Series, vol. 3. London: Reeds.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Expansion and Compression of Gases</span>"
     ]
@@ -504,7 +554,7 @@
     "href": "ideal-cycles.html",
     "title": "8  Ideal Cycles",
     "section": "",
-    "text": "8.1 Objectives",
+    "text": "8.1 Objectives\nA perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Ideal Cycles</span>"
     ]
@@ -520,11 +570,11 @@
     ]
   },
   {
-    "objectID": "ideal-cycles.html#concepts",
-    "href": "ideal-cycles.html#concepts",
+    "objectID": "ideal-cycles.html#boyles-law",
+    "href": "ideal-cycles.html#boyles-law",
     "title": "8  Ideal Cycles",
-    "section": "8.2 Concepts",
-    "text": "8.2 Concepts\nA perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.\n\n8.2.1 Boyle’s Law\nA physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\\index{Boyle’s Law}\n\\[\nP\\propto\\frac{1}{V}\n\\tag{8.1}\\]",
+    "section": "8.2 Boyle’s Law",
+    "text": "8.2 Boyle’s Law\nA physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\\index{Boyle’s Law}\n\\[\nP\\propto\\frac{1}{V}\n\\tag{8.1}\\]",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Ideal Cycles</span>"
     ]

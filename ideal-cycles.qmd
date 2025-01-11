@@ -6,11 +6,10 @@
 -   Explain
 -   Explain
 
-## Concepts
 
 A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.
 
-### Boyle's Law
+## Boyle's Law
 
 A physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\\index{Boyle's Law}
 

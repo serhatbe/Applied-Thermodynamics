@@ -6,7 +6,6 @@
 -   Explain the Characteristic Gas Constant and use the Characteristic Gas Equation to determine the mass, the conditions, and the constant for a gas.
 -   Explain isothermal, adiabatic, and polytropic processes (expansion and compression) for a gas, state the formula for each process, and compare the processes on a pressure/volume diagram
 
-## Concepts
 
 A perfect gas may be defined as a gas that remains in its gaseous state during changes in condition. Another way to state this is that the gas will not condense (even partially) if any of its conditions (temperature, volume or pressure) are changed.
 
@@ -16,7 +15,7 @@ For a perfect gas in a closed environment, there are specific relationships that
 
 The relationships between pressure, temperature and volume have been proven by experimentation and have been described in three basic laws, called Laws of Perfect Gases. These laws are Boyle’s Law, Charles’ Laws, and the General Gas Law.
 
-### Boyle's Law
+## Boyle's Law
 
 A physicist, Robert Boyle (1627-1691), investigated the behavior of a perfect gas at a constant temperature. By removing or adding heat during a controlled change in the volume and pressure of a confined gas, he was able to hold the temperature constant. He discovered that, under this condition, the absolute pressure of a gas varies inversely with the volume. That is, if the volume increases, then the pressure decreases and, conversely, if the volume decreases, then the pressure increases. This can be stated as:\\index{Boyle's Law}
 

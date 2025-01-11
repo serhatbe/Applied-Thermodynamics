@@ -8,11 +8,9 @@
 
 -   Calculate stress in a pipe or supports due to thermal expansion.
 
-## Concepts
-
 Thermal expansion is the tendency of materials to change their shape, area, and volume in response to a change in temperature. When most substances are heated, their particles move more vigorously and tend to occupy more space, leading to an increase in dimensions. Conversely, when substances are cooled, they generally contract. This phenomenon occurs in solids, liquids, and gases, although the degree and nature of expansion vary depending on the material’s state and properties.
 
-### Linear Expansion
+## Linear Expansion
 
 This occurs along a specific dimension or direction, primarily in long, narrow objects (like rods or beams). When the temperature of a solid object increases, its length expands by an amount proportional to its original length and the temperature change. The equation for linear expansion is:
 
@@ -28,7 +26,7 @@ $$ {#eq-linearexp} where:
 
 -   $\Delta T$ is the temperature change.
 
-### Superficial Expansion
+## Superficial Expansion
 
 Applicable to two-dimensional surfaces, such as sheets or plates. Here, both length and width expand, leading to an increase in surface area. The formula for area expansion is: $$
 \Delta A = 2 \alpha A_0 \Delta T
@@ -38,7 +36,7 @@ $$ {#eq-superficial-exp} where:
 -   $A_0$ is the initial area, and
 -   $\Delta T$ is the temperature change.
 
-### Volumetric Expansion
+## Volumetric Expansion
 
 Relevant for three-dimensional objects (like solids, liquids, and gases). The volume of an object expands with temperature, especially in fluids where this effect is more pronounced. The formula is: $$
 \Delta V = \beta V_0 \Delta T

@@ -5,8 +5,6 @@
 -   Explain the methods of heat transfer: conduction, convection, and radiation.
 -   Define thermal conductivity and calculate the quantity of heat conducted, the temperature difference, or the material thickness when heat is transferred through flat walls and plates.
 
-## Concepts
-
 ## Conduction
 
 This method involves the flow of heat from molecule to molecule within a single solid object or from the molecules of one object to those of another object when the two are in direct contact. Molecules at a high temperature are in rapid vibration and this vibration is transferred, through molecular collision, to adjacent molecules within the same body. This causes the adjacent molecules to vibrate faster, thus increasing the temperature.
@@ -19,7 +17,7 @@ $$
 Q=\frac{kAt\Delta T}{s}
 $$ {#eq-conduction}
 
-### Convection
+## Convection
 
 Heat transfer by convection involves the movement of a fluid (ie. a liquid or a gas). When a fluid is in contact with a hotter surface, the fluid near that surface will be heated, causing the fluid to expand and its density to decrease. Cooler, denser fluid will displace the heated fluid and will, in turn, become heated. This continuing process of heat transfer establishes a circulation of fluid (called a convection current), which then carries heat throughout the fluid.
 
@@ -29,7 +27,7 @@ Likewise, hot gases rising in a boiler stack, air rising from a room radiator, w
 
 If fluid movement is created by a pump or a fan, heat is being transferred by forced convection. Examples are a pump circulating hot water through a building heating system, a fan forcing air through an automobile radiator, or a forced draft fan pushing hot gases through a boiler.
 
-### Radiation
+## Radiation
 
 Heat transfer by radiation involves the transmission of electromagnetic waves. All bodies emit these waves and the higher the body's temperature the greater will be the emission. These waves are similar to light waves in they travel in straight lines and are able to pass through a vacuum. When they strike another body they are absorbed, reflected, or transmitted through, depending upon the material of the body. If the waves are absorbed by a body, the waves will increase the molecular activity of the body, thus creating an increase in temperature.
 
