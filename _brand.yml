@@ -1,6 +1,6 @@
 logo:
   images:
-    icon: images/logo.png
+    icon: images/logo.png # https://github.com/nayuki/QR-Code-generator
   small: icon
 
 color:
