@@ -1,0 +1,102 @@
+---
+title: "Gas Turbine Power Calculation"
+format: pdf
+header-includes:
+  - \usepackage{amsmath}
+---
+
+## Problem Statement
+
+The working fluid flows through a gas turbine at a constant rate of 11 kg/s. It enters the turbine with:
+
+-   Velocity: $c_1 = 110$ m/s
+
+-   Specific enthalpy: $h_1 = 2050$ kJ/kg
+
+The fluid exits with:
+
+-   Velocity: $c_2 = 55$ m/s
+
+-   Specific enthalpy: $h_2 = 1550$ kJ/kg
+
+The heat lost to the surroundings during the process is:
+
+-   $q = -45$ kJ/kg
+
+Calculate the power developed by the gas turbine.
+
+------------------------------------------------------------------------
+
+## Solution
+
+The power developed by the turbine can be calculated using the **steady-flow energy equation**:
+
+$$
+\dot{W} = \dot{m} \left[ \left(h_1 - h_2\right) + \frac{c_1^2 - c_2^2}{2} + q \right]
+$$
+
+where:
+
+-   $\dot{W}$ = Power developed (kW)
+
+-   $\dot{m}$ = Mass flow rate (kg/s)
+
+-   $h_1$ and $h_2$ = Specific enthalpies at the inlet and outlet (kJ/kg)
+
+-   $c_1$ and $c_2$ = Velocities at the inlet and outlet (m/s)
+
+-   $q$ = Heat transfer per unit mass (kJ/kg)
+
+------------------------------------------------------------------------
+
+### Given Data
+
+$$
+\dot{m} = 11 \, \text{kg/s}, \quad h_1 = 2050 \, \text{kJ/kg}, \quad h_2 = 1550 \, \text{kJ/kg}
+$$
+
+$$
+c_1 = 110 \, \text{m/s}, \quad c_2 = 55 \, \text{m/s}, \quad q = -45 \, \text{kJ/kg}
+$$
+
+------------------------------------------------------------------------
+
+### Step 1: Calculate the Change in Kinetic Energy
+
+The change in kinetic energy per unit mass is given by:
+
+$$
+\frac{c_1^2 - c_2^2}{2} = \frac{110^2 - 55^2}{2 \cdot 1000} \, \text{kJ/kg}
+$$
+
+$$
+= \frac{12100 - 3025}{2000} = \frac{9085}{2000} = 4.5425 \, \text{kJ/kg}
+$$
+
+------------------------------------------------------------------------
+
+### Step 2: Substitute into the Energy Equation
+
+Substitute the values into the energy equation:
+
+$$
+\dot{W} = 11 \left[ (2050 - 1550) + 4.5425 + (-45) \right]
+$$
+
+$$
+\dot{W} = 11 \left[ 500 + 4.5425 - 45 \right]
+$$
+
+$$
+\dot{W} = 11 \times 459.5425 = 5054.9675 \, \text{kW}
+$$
+
+------------------------------------------------------------------------
+
+### Final Answer
+
+The power developed by the gas turbine is:
+
+$$
+\boxed{\dot{W} \approx 5055 \, \text{kW}}
+$$
